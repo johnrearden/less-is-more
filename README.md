@@ -23,6 +23,7 @@ Tone should be light, helpful and non-preachy
 <hr>
 
 ### **Skeleton**
+![The Homepage wireframe](https://share.balsamiq.com/c/u49Yj3JpZQCiJefFBKy9XY.png)
 
 <hr>
 
