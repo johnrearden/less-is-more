@@ -9,5 +9,34 @@
     background-repeat: no-repeat;
     background-position: center center;
     font-family: 'Barlow Condensed', sans-serif;
+    color: silver;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    font-size: 150%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8));
+}
+
+#top-nav-bar h1 {
+    font-family: 'Barlow', sans-serif;
+    margin-right: 50px;
+    float: right;
+}
+
+#top-nav-bar li {
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#top-nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#top-nav-bar a:hover {
+    border-bottom: 1px solid silver;
 }
 
