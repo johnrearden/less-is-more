@@ -128,19 +128,37 @@ footer {
 
 /* Driving.html */
 
-#image-holder {
+#container {
     width: 100%;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    object-fit: contain;
+    justify-content: space-evenly;
+    
+    
 }
 
-#image-holder img {
+.tip-panel {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
     height: 100%;
-    width: auto;
-    margin: 20px 20px;
+    max-width: 20%;
+    margin: 0 50px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.tip-panel img {
+    height: 50%;
+    max-width: 80%;
+    margin: 5% 20px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.tip-panel p {
+    padding: 10px 25px;
 }
 
