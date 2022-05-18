@@ -143,4 +143,6 @@ Color scheme: primarily black and white monochrome, with important features in b
 ## Images:
 Fast red car : Pixabay (sourced from www.pexels.com)
 Dog in window: Charles Roth (sourced from www.pexels.com)
+Tyre         : Mike (sourced from www.pexels.com)
+Solo Driver  : Andrew Piacquadio (sourced from www.pexels.com)
 
