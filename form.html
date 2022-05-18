@@ -33,14 +33,17 @@
 
     <section id="feedback-form">
         <form action="" method="POST">
-            <fieldset id="personal_details">
+            
+            <fieldset>
                 <legend>Personal Details</legend>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="first_name">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="last_name">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
                 <label for="age">Age</label>
                 <select name="age" id="age">
                     <option>0 - 18</option>
@@ -49,6 +52,38 @@
                     <option>40 - 49</option>
                     <option>50 - 65</option>
                     <option>Over 65</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Household</legend>
+
+                <!--Radio buttons to select household status-->
+                <h6>Household Status</h6>
+                <div>
+                    <input type="radio" id="owner" name="status" value="Owner">
+                    <label for="owner">Owner</label>
+                    <input type="radio" id="renter" name="status" value="Renter">
+                    <label for="renter">Renter</label>
+                    <input type="radio" id="other" name="status" value="Other">
+                    <label for="other">Other</label>
+                </div>
+                
+
+                <!--Radio buttons to select heating type-->
+                <h6>Type of Heating</h6>
+                <div>
+                    <label for="status">Type of Heating</label>
+                    <input type="radio" id="gas" name="status" value="Gas">
+                    <input type="radio" id="oil" name="status" value="Oil">
+                    <input type="radio" id="geothermal" name="status" value="Geothermal">
+                    <input type="radio" id="air_to_water" name="status" value="Air to Water">
+                    <input type="radio" id="other" name="status" value="Other">
+                </div>
+                
+
             </fieldset>
         </form>
     </section>

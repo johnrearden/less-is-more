@@ -172,3 +172,14 @@ footer {
     padding: 10px 25px;
 }
 
+/* FORM STYLING */
+
+form {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: silver;
+}
+
+fieldset {
+    
+}
+
