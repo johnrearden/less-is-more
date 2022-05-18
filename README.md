@@ -134,3 +134,5 @@ Here's the page giving tips on saving money in the home
 <hr>
 
 ### **Surface**
+## Top-level considerations:
+Color scheme: primarily black and white monochrome, with important features in bold colour.
