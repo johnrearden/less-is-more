@@ -104,6 +104,11 @@ Tone should be light, helpful and non-preachy.
         <td>External links to more information</td>
         <td>No extra content to distract from bite-sized message</td>
     </tr>
+    <tr>
+        <td>Provide user interactivity</td>
+        <td>Don't swamp the user with static content that they absorb passively</td>
+        <td>Allow user to interact with each tip, by rating it maybe?</td>
+    </tr>
     
 </table>
 <hr>
