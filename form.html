@@ -70,19 +70,52 @@
                     <input type="radio" id="other" name="status" value="Other">
                     <label for="other">Other</label>
                 </div>
-                
 
                 <!--Radio buttons to select heating type-->
                 <h6>Type of Heating</h6>
                 <div>
-                    <label for="status">Type of Heating</label>
-                    <input type="radio" id="gas" name="status" value="Gas">
-                    <input type="radio" id="oil" name="status" value="Oil">
-                    <input type="radio" id="geothermal" name="status" value="Geothermal">
-                    <input type="radio" id="air_to_water" name="status" value="Air to Water">
-                    <input type="radio" id="other" name="status" value="Other">
+                    <input type="radio" id="gas" name="heating" value="Gas">
+                    <input type="radio" id="oil" name="heating" value="Oil">
+                    <input type="radio" id="geothermal" name="heating" value="Geothermal">
+                    <input type="radio" id="air_to_water" name="heating" value="Air to Water">
+                    <input type="radio" id="other" name="heating" value="Other">
                 </div>
-                
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Transport</legend>
+
+                <!-- Radio buttons to select method of travel to work/school-->
+                <h6>How do you travel to work/school?</h6>
+                <input type="radio" id="walk" name="status" value="Walk">
+                <label for="walk">Walk</label>
+                <input type="radio" id="cycle" name="status" value="Cycle">
+                <label for="cycle">Cycle</label>
+                <input type="radio" id="bus" name="status" value="Bus">
+                <label for="bus">Bus</label>
+                <input type="radio" id="train" name="status" value="Train">
+                <label for="train">Train</label>
+                <input type="radio" id="walk" name="status" value="Walk">
+                <label for="car">Car</label>
+
+                <!-- Radio buttons to select length of commute-->
+                <h6>How long does your commute take?</h6>
+                <input type="radio" id="0-15" name="status" value="0-15">
+                <label for="0-15">0 - 15mn</label>
+                <input type="radio" id="15-30" name="status" value="15-30">
+                <label for="15-30">15 - 30mn</label>
+                <input type="radio" id="30-1hr" name="status" value="30-1hr">
+                <label for="30-1hr">30mn - 1hr</label>
+                <input type="radio" id=">1hr" name="status" value=">1hr">
+                <label for=">1hr">> 1hr</label>
+
+                <!-- Slider to select weekly cost of communte-->
+                <h6>How much do you spend a week on transport?</h6>
+                <input type="range" id="commute_cost" max="100" 
+                       min="0" value="50" step="25">
+
 
             </fieldset>
         </form>
