@@ -13,7 +13,9 @@ To inform casual visitors about easy ways to save money on their bills.
 Tone should be light, helpful and non-preachy.
 
 #### Trade-offs :
-<table style="border: 1px solid black; background-color: lightgray; color: black">
+<table style="border: 1px solid black; 
+              background-color: rgb(0, 0, 0, .2); 
+              color: white;">
     <tr>
         <th>Opportunity</th>
         <th>Importance</th>
@@ -61,7 +63,49 @@ Tone should be light, helpful and non-preachy.
 <hr>
 
 ### **Scope**
-
+<table style="border: 1px solid black; 
+              background-color: rgb(0, 0, 0, .2); 
+              color: white;">
+    <tr>
+        <th>In</th>
+        <th>Out</th>
+        <th>Comments</th>
+    </tr>
+    <tr>
+        <td>Images</td>
+        <td>Video</td>
+        <td>No time to develop this kind of content</td>
+    </tr><tr>
+        <td>Simple clear text</td>
+        <td>Long passages of exposition</td>
+        <td>KISS</td>
+    </tr>
+    <tr>
+        <td>Straightforward text</td>
+        <td>Complicated stats</td>
+        <td>Don't overload the user</td>
+    </tr>
+    <tr>
+        <td>Subtle transitions</td>
+        <td>Fussy design</td>
+        <td>Add life to the page, not detail</td>
+    </tr>
+    <tr>
+        <td>Unified color scheme across site</td>
+        <td>Stylistically different pages</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Quick route to tips, little clicking</td>
+        <td>Complex interactions to reveal little</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>External links to more information</td>
+        <td>No extra content to distract from bite-sized message</td>
+    </tr>
+    
+</table>
 <hr>
 
 ### **Structure**
