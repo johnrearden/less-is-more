@@ -145,4 +145,4 @@ Fast red car : Pixabay (sourced from www.pexels.com)
 Dog in window: Charles Roth (sourced from www.pexels.com)
 Tyre         : Mike (sourced from www.pexels.com)
 Solo Driver  : Andrew Piacquadio (sourced from www.pexels.com)
-
+Kettle       : Dids (sourced from www.pexels.com)
