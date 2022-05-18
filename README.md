@@ -110,6 +110,10 @@ Tone should be light, helpful and non-preachy.
 
 ### **Structure**
 
+The basic structure of the site is a tree. The homepage leads on to 
+three further pages as follows.
+<br>
+<img src='https://share.balsamiq.com/c/34jxXPdxu4x1HRSqz2VLPw.png' width='800'>
 <hr>
 
 ### **Skeleton**
