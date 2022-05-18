@@ -151,6 +151,13 @@ Color scheme: primarily black and white monochrome, with important features in b
 
 <hr>
 
+# Manual Testing
+Feature | Expected | Action | Result
+--------|----------|--------|-------
+Home button | Returns user to homepage | Clicked Home on NavBar | Home page opened sucessfully |
+
+
+
 # Credits
 ## Images:
 Fast red car : Pixabay (sourced from www.pexels.com)
