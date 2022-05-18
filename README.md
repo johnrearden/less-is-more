@@ -156,7 +156,12 @@ Feature | Expected | Action | Result
 --------|----------|--------|-------
 Home button | Returns user to homepage | Clicked Home on NavBar | Home page opened sucessfully |
 
+<br>
 
+# User Stories
+### Expectation :
+
+### Result :
 
 # Credits
 ## Images:
