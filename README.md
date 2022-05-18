@@ -131,6 +131,13 @@ Here's the page giving tips on saving money in the home
 .... and tips on saving money while driving.
 <br>
 <img src='https://share.balsamiq.com/c/rTf6pqjYgGfjJCMQBMNrrk.png' width='800' height='500'>
+
+
+
+Finally, a form to allow the user to contact us for updates and more info
+<br>
+<img src='https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png' width='800' 
+height='500'>
 <hr>
 
 ### **Surface**
