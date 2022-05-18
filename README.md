@@ -136,3 +136,11 @@ Here's the page giving tips on saving money in the home
 ### **Surface**
 ## Top-level considerations:
 Color scheme: primarily black and white monochrome, with important features in bold colour.
+
+<hr>
+
+# Credits
+## Images:
+Fast red car : Pixabay (sourced from www.pexels.com)
+Dog in window: Charles Roth (sourced from www.pexels.com)
+
