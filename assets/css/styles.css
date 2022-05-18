@@ -78,6 +78,11 @@ footer {
     margin-right: 10vw;
 }
 
+#social-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* SITE RATIONALE */
 #site-rationale {
     background-color: rgb(0, 0, 0, 0.6);
