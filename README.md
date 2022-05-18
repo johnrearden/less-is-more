@@ -146,3 +146,6 @@ Dog in window: Charles Roth (sourced from www.pexels.com)
 Tyre         : Mike (sourced from www.pexels.com)
 Solo Driver  : Andrew Piacquadio (sourced from www.pexels.com)
 Kettle       : Dids (sourced from www.pexels.com)
+Lightbulb    : Jonathan Borba (sourced from www.pexels.com)
+Standby      : wassa on deviantart.com
+Shower       : onlinedeals.uk.com
