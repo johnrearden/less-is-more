@@ -159,22 +159,29 @@ footer {
 
 /* NAVIGATION ICONS */
 
+#navigation-section{
+    text-align: center;
+}
+
 #navigation-icons {
     position: fixed;
-    bottom: 50px;
-    height: 20vh;
-    width: 100%;
+    margin: auto;
+    width: 60%;
+    bottom: 70px;
+    /* height: 20vh; */
+    /* width: 100%; */
     padding: 10% 0;
-    text-align: center;
     display: inline-block;
-    font-size: 400%;
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
 #navigation-icons i {
     padding: 20px;
     background-color: rgba(148, 79, 15, 0.5);
     border-radius: 10px;
-    margin: 0 30px 0 30px;
+    margin: 0 30px;
 }
 
 #navigation-icons a {
