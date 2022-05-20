@@ -117,13 +117,18 @@ footer {
     }
 }
 
+#section-holder {
+    position: relative;
+}
+
 /* SITE RATIONALE */
 #site-rationale {
+    position: absolute;
     background-color: rgb(100, 0, 0, 0.7);
     width: 30vw;
     font-size: 1rem;
     text-align: center;
-    float: right;
+    right: 0;
     line-height: 150%;
 }
 
@@ -159,22 +164,20 @@ footer {
 
 /* NAVIGATION ICONS */
 
-#navigation-section{
+#navigation-section {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
     text-align: center;
 }
 
 #navigation-icons {
-    position: fixed;
-    margin: auto;
-    width: 60%;
-    bottom: 70px;
-    /* height: 20vh; */
-    /* width: 100%; */
-    padding: 10% 0;
+    padding: 10px 10px;
     display: inline-block;
     font-size: 2rem;
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 #navigation-icons i {
@@ -191,6 +194,17 @@ footer {
 
 #navigation-icons a:hover i {
     background-color: rgb(255, 160, 30, 0.5);
+}
+
+@media screen and (max-width:768px) {
+    #navigation-icons {
+        font-size: 1rem;
+    }
+
+    #navigation-icons i {
+        padding: 10px;
+        margin: 0 10px;
+    }
 }
 
 /* Driving.html and household.html*/
