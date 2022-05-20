@@ -186,7 +186,7 @@ footer {
     background-color: rgb(255, 160, 30, 0.5);
 }
 
-/* Driving.html */
+/* Driving.html and household.html*/
 
 #container {
     width: 100%;
@@ -209,6 +209,13 @@ footer {
     overflow-wrap: break-word;
     border-radius: 10px;
     font-size: 1.0rem;
+}
+
+.tip-panel ul {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 5px;
 }
 
 .tip-panel strong {
