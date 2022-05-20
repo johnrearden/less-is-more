@@ -82,7 +82,7 @@ footer {
     line-height: 50px;
     position: fixed;
     bottom: 0;
-    font-size: 120%;
+    font-size: 1rem;
 }
 
 #copyright-message {
@@ -92,16 +92,25 @@ footer {
 
 #social-links {
     float: right;
-    font-size: 150%;
 }
 
 #social-links i {
-    margin-right: 10vw;
+    margin-right: 50px;
 }
 
 #social-links a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width:600px) {
+    #copyright-message {
+        font-size: 0.8rem;
+    }
+
+    #social-links i {
+        margin-right: 15px;
+    }
 }
 
 /* SITE RATIONALE */
