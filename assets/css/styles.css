@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 30%;
+    background-attachment: fixed;
     font-family: 'Barlow Condensed', sans-serif;
     color: silver;
     background-color: gray;
@@ -107,18 +108,42 @@ footer {
 #site-rationale {
     background-color: rgb(100, 0, 0, 0.7);
     width: 30vw;
-    font-size: 120%;
+    font-size: 1rem;
     text-align: center;
     float: right;
     line-height: 150%;
 }
 
 #user-welcome {
-    height: 100%;
     padding: 10px 10px;
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+#user-welcome h1 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 766px) {
+    #site-rationale {
+        width: 40vw;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #site-rationale {
+        width: 40vw;
+        font-size: 0.8rem;
+        line-height: 120%;
+    }
+
+    #user-welcome {
+        padding: 10px 5px;
+    }
+}
+
+
 
 /* NAVIGATION ICONS */
 
