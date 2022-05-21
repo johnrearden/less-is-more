@@ -33,100 +33,101 @@
 
     <section id="feedback-form">
         <form action="" method="POST">
-            
-            <fieldset>
-                <legend>Personal Details</legend>
-                <div>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="first_name">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="last_name">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <label for="age">Age</label>
-                <select name="age" id="age">
-                    <option>0 - 18</option>
-                    <option>18 - 29</option>
-                    <option>30 - 39</option>
-                    <option>40 - 49</option>
-                    <option>50 - 65</option>
-                    <option>Over 65</option>
-                </select>
-            </fieldset>
 
-            <br>
+            <div class="fieldset-holder">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="first_name">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="last_name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <label for="age">Age</label>
+                    <select name="age" id="age">
+                        <option>0 - 18</option>
+                        <option>18 - 29</option>
+                        <option>30 - 39</option>
+                        <option>40 - 49</option>
+                        <option>50 - 65</option>
+                        <option>Over 65</option>
+                    </select>
+                </fieldset>
+            </div>
 
-            <fieldset>
-                <legend>Household</legend>
+            <div class="fieldset-holder">
+                <fieldset>
+                    <legend>Household</legend>
 
-                <!--Radio buttons to select household status-->
-                <h3>Household Status</h3>
-                <div>
-                    <input type="radio" id="owner" name="status" value="Owner">
-                    <label for="owner">Owner</label>
-                    <input type="radio" id="renter" name="status" value="Renter">
-                    <label for="renter">Renter</label>
-                    <input type="radio" id="other" name="status" value="Other">
-                    <label for="other">Other</label>
-                </div>
+                    <!--Radio buttons to select household status-->
+                    <h3>Household Status</h3>
+                    <div>
+                        <input type="radio" id="owner" name="status" value="Owner">
+                        <label for="owner">Owner</label>
+                        <input type="radio" id="renter" name="status" value="Renter">
+                        <label for="renter">Renter</label>
+                        <input type="radio" id="other" name="status" value="Other">
+                        <label for="other">Other</label>
+                    </div>
 
-                <!--Radio buttons to select heating type-->
-                <h3>Type of Heating</h3>
-                <div>
-                    <input type="radio" id="gas" name="heating" value="Gas">
-                    <input type="radio" id="oil" name="heating" value="Oil">
-                    <input type="radio" id="geothermal" name="heating" value="Geothermal">
-                    <input type="radio" id="air_to_water" name="heating" value="Air to Water">
-                    <input type="radio" id="other" name="heating" value="Other">
-                </div>
-            </fieldset>
+                    <!--Radio buttons to select heating type-->
+                    <h3>Type of Heating</h3>
+                    <div>
+                        <input type="radio" id="gas" name="heating" value="Gas">
+                        <input type="radio" id="oil" name="heating" value="Oil">
+                        <input type="radio" id="geothermal" name="heating" value="Geothermal">
+                        <input type="radio" id="air_to_water" name="heating" value="Air to Water">
+                        <input type="radio" id="other" name="heating" value="Other">
+                    </div>
+                </fieldset>
+            </div>
 
-            <br>
+            <div class="fieldset-holder">
+                <fieldset>
+                    <legend>Transport</legend>
 
-            <fieldset>
-                <legend>Transport</legend>
+                    <!-- Radio buttons to select method of travel to work/school-->
+                    <h3>How do you travel to work/school?</h3>
+                    <input type="radio" id="walk" name="status" value="Walk">
+                    <label for="walk">Walk</label>
+                    <input type="radio" id="cycle" name="status" value="Cycle">
+                    <label for="cycle">Cycle</label>
+                    <input type="radio" id="bus" name="status" value="Bus">
+                    <label for="bus">Bus</label>
+                    <input type="radio" id="train" name="status" value="Train">
+                    <label for="train">Train</label>
+                    <input type="radio" id="walk" name="status" value="Walk">
+                    <label for="car">Car</label>
 
-                <!-- Radio buttons to select method of travel to work/school-->
-                <h3>How do you travel to work/school?</h3>
-                <input type="radio" id="walk" name="status" value="Walk">
-                <label for="walk">Walk</label>
-                <input type="radio" id="cycle" name="status" value="Cycle">
-                <label for="cycle">Cycle</label>
-                <input type="radio" id="bus" name="status" value="Bus">
-                <label for="bus">Bus</label>
-                <input type="radio" id="train" name="status" value="Train">
-                <label for="train">Train</label>
-                <input type="radio" id="walk" name="status" value="Walk">
-                <label for="car">Car</label>
+                    <!-- Radio buttons to select length of commute-->
+                    <h3>How long does your commute take?</h3>
+                    <input type="radio" id="0-15" name="status" value="0-15">
+                    <label for="0-15">0 - 15mn</label>
+                    <input type="radio" id="15-30" name="status" value="15-30">
+                    <label for="15-30">15 - 30mn</label>
+                    <input type="radio" id="30-1hr" name="status" value="30-1hr">
+                    <label for="30-1hr">30mn - 1hr</label>
+                    <input type="radio" id=">1hr" name="status" value=">1hr">
+                    <label for=">1hr">> 1hr</label>
 
-                <!-- Radio buttons to select length of commute-->
-                <h3>How long does your commute take?</h3>
-                <input type="radio" id="0-15" name="status" value="0-15">
-                <label for="0-15">0 - 15mn</label>
-                <input type="radio" id="15-30" name="status" value="15-30">
-                <label for="15-30">15 - 30mn</label>
-                <input type="radio" id="30-1hr" name="status" value="30-1hr">
-                <label for="30-1hr">30mn - 1hr</label>
-                <input type="radio" id=">1hr" name="status" value=">1hr">
-                <label for=">1hr">> 1hr</label>
+                    <!-- Slider to select weekly cost of communte-->
+                    <h3>How much do you spend a week on transport?</h3>
+                    <input type="range" id="commute_cost" max="100" min="0" value="50" step="25">
+                </fieldset>
+            </div>
 
-                <!-- Slider to select weekly cost of communte-->
-                <h3>How much do you spend a week on transport?</h3>
-                <input type="range" id="commute_cost" max="100" 
-                       min="0" value="50" step="25">
-            </fieldset>
-
-            <fieldset>
-                <legend>Feedback</legend>
-                <h3>How useful did you find out tips (1 - 10)?</h3>
-                <input type="range" id="commute cost" max="10"
-                       min="1" value="50" step="25">
-                <br>
-                <h3>Any suggestions for new tips or categories?</h3>
-                <input type="text" id="suggestions" name="suggestions"
-                       placeholder="Suggestions ...">
-            </fieldset>
+            <div class="fieldset-holder">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <h3>How useful did you find out tips (1 - 10)?</h3>
+                    <input type="range" id="commute cost" max="10" min="1" value="50" step="25">
+                    <br>
+                    <h3>Any suggestions for new tips or categories?</h3>
+                    <input type="text" id="suggestions" name="suggestions" placeholder="Suggestions ...">
+                </fieldset>
+            </div>
         </form>
     </section>
 
