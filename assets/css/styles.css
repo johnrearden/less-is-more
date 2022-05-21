@@ -225,7 +225,22 @@ footer {
 
     #navigation-icons div {
         width: 25vw;
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #navigation-icons {
+        font-size: 2.5rem;
+    }
+
+    #navigation-icons i {
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    #navigation-icons div {
+        font-size: 2rem;
     }
 }
 
