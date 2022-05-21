@@ -93,11 +93,12 @@ footer {
 }
 
 #social-links {
+    font-size: 1.5rem;
     float: right;
 }
 
 #social-links i {
-    margin-right: 50px;
+    margin-right: 12vw;
 }
 
 #social-links a {
