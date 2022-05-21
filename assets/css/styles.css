@@ -43,6 +43,7 @@ header {
 
 nav li {
     display: inline-block;
+    font-size: 1.2rem;
     margin-right: 30px;
     list-style-type: none;
     height: 100px;
@@ -65,6 +66,7 @@ nav a {
     }
 
     nav li {
+        font-size: 1rem;
         margin-right: 10px;
     }
 }
