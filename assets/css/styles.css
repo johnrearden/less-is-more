@@ -90,10 +90,11 @@ footer {
 #copyright-message {
     font-style: italic;
     float: left;
+    padding-left: 2vw;
 }
 
 #social-links {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     float: right;
 }
 
@@ -166,8 +167,6 @@ footer {
     }
 }
 
-
-
 /* NAVIGATION ICONS */
 
 #navigation-section {
@@ -180,17 +179,23 @@ footer {
 #navigation-icons {
     padding: 10px 10px;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 4vw;
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 10px;
     box-sizing: border-box;
 }
 
 #navigation-icons i {
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(148, 79, 15, 0.5);
     border-radius: 10px;
     margin: 0 30px;
+}
+
+#navigation-icons div {
+    display: inline-block;
+    width: 18vw;
+    font-size: 3vw;
 }
 
 #navigation-icons a {
@@ -202,14 +207,25 @@ footer {
     background-color: rgb(255, 160, 30, 0.5);
 }
 
+@media screen and (max-width:1024px) {
+    #navigation-icons div {
+        width: 20vw;
+    }
+}
+
 @media screen and (max-width:768px) {
     #navigation-icons {
         font-size: 1rem;
     }
 
     #navigation-icons i {
-        padding: 10px;
-        margin: 0 10px;
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    #navigation-icons div {
+        width: 25vw;
+        font-size: 0.8rem;
     }
 }
 
