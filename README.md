@@ -182,6 +182,8 @@ Kettle       : Dids (sourced from www.pexels.com)
 Lightbulb    : Jonathan Borba (sourced from www.pexels.com)
 Standby      : wassa on deviantart.com
 Shower       : onlinedeals.uk.com
+Video Call   : Julia M. Cameron (sourced from www.pexels.com)
+On-site visit: RODNAE Productions (sourced from www.pexels.com)
 
 ## Code:
 Aligning labels and text input fields vertically : 
