@@ -459,6 +459,12 @@ legend {
     margin: 0 auto;
 }
 
+#company-contact-info label{
+    display: inline-block;
+    text-align: right;
+    min-width: 100px;
+}
+
 @media screen and (max-width:1024px) {
     #row {
         width: 70vw;
@@ -484,6 +490,11 @@ legend {
         /* flex: 1; */
         box-sizing: border-box;
         margin: 10px 0;
+    }
+
+    #corporate-contact-form .fieldset-holder {
+        width: 95vw;
+        margin: 0 auto;
     }
     
 }
