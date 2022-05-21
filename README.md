@@ -174,3 +174,10 @@ Kettle       : Dids (sourced from www.pexels.com)
 Lightbulb    : Jonathan Borba (sourced from www.pexels.com)
 Standby      : wassa on deviantart.com
 Shower       : onlinedeals.uk.com
+
+## Code:
+Aligning labels and text input fields vertically : 
+https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
+
+CSS grid layout:
+https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-columns
