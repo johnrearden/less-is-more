@@ -328,11 +328,16 @@ form h3 {
 }
 
 fieldset {
-    
     padding: 10px 10px 10px 50px;
     border-color: gray;
     line-height: 150%;
     border-radius: 10px;
+}
+
+#personal-details label{
+    display: inline-block;
+    text-align: right;
+    min-width: 100px;
 }
 
 .fieldset-holder {
