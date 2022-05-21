@@ -38,7 +38,7 @@
                 <fieldset>
                     <legend>Personal Details</legend>
                     <div>
-                        <label for="fname">First Name</label>
+                        <label for="name">First Name</label>
                         <input type="text" id="fname" name="first_name">
                         <label for="lname">Last Name</label>
                         <input type="text" id="lname" name="last_name">
@@ -87,7 +87,7 @@
                         <input type="radio" id="other" name="heating" value="Other">
                         <label for="other" class="radiobutton-label">Other</label>
                     </div>
-                
+
                 </fieldset>
             </div>
 
@@ -97,27 +97,34 @@
 
                     <!-- Radio buttons to select method of travel to work/school-->
                     How do you travel to work/school?
-                    <input type="radio" id="walk" name="status" value="Walk">
-                    <label for="walk" class="radiobutton-label">Walk</label>
-                    <input type="radio" id="cycle" name="status" value="Cycle">
-                    <label for="cycle" class="radiobutton-label">Cycle</label>
-                    <input type="radio" id="bus" name="status" value="Bus">
-                    <label for="bus" class="radiobutton-label">Bus</label>
-                    <input type="radio" id="train" name="status" value="Train">
-                    <label for="train" class="radiobutton-label">Train</label>
-                    <input type="radio" id="walk" name="status" value="Walk">
-                    <label for="car" class="radiobutton-label">Car</label>
+                    <br>
+                    <div>
+                        <input type="radio" id="walk" name="status" value="Walk">
+                        <label for="walk" class="radiobutton-label">Walk</label>
+                        <input type="radio" id="cycle" name="status" value="Cycle">
+                        <label for="cycle" class="radiobutton-label">Cycle</label>
+                        <input type="radio" id="bus" name="status" value="Bus">
+                        <label for="bus" class="radiobutton-label">Bus</label>
+                        <input type="radio" id="train" name="status" value="Train">
+                        <label for="train" class="radiobutton-label">Train</label>
+                        <input type="radio" id="walk" name="status" value="Walk">
+                        <label for="car" class="radiobutton-label">Car</label>
+                    </div>
+                    <br>
 
                     <!-- Radio buttons to select length of commute-->
                     How long does your commute take?
-                    <input type="radio" id="0-15" name="status" value="0-15">
-                    <label for="0-15" class="radiobutton-label">0 - 15mn</label>
-                    <input type="radio" id="15-30" name="status" value="15-30">
-                    <label for="15-30" class="radiobutton-label">15 - 30mn</label>
-                    <input type="radio" id="30-1hr" name="status" value="30-1hr">
-                    <label for="30-1hr class=" radiobutton-label"">30mn - 1hr</label>
-                    <input type="radio" id=">1hr" name="status" value=">1hr">
-                    <label for=">1hr" class="radiobutton-label">> 1hr</label>
+                    <div>
+                        <input type="radio" id="0-15" name="status" value="0-15">
+                        <label for="0-15" class="radiobutton-label">0 - 15mn</label>
+                        <input type="radio" id="15-30" name="status" value="15-30">
+                        <label for="15-30" class="radiobutton-label">15 - 30mn</label>
+                        <input type="radio" id="30-1hr" name="status" value="30-1hr">
+                        <label for="30-1hr class=" radiobutton-label"">30mn - 1hr</label>
+                        <input type="radio" id=">1hr" name="status" value=">1hr">
+                        <label for=">1hr" class="radiobutton-label">> 1hr</label>
+                    </div>
+                    <br>
 
                     <!-- Slider to select weekly cost of communte-->
                     How much do you spend a week on transport?
@@ -129,9 +136,11 @@
                 <fieldset>
                     <legend>Feedback</legend>
                     How useful did you find out tips (1 - 10)?
+                    <br>
                     <input type="range" id="commute cost" max="10" min="1" value="50" step="25">
                     <br>
                     Any suggestions for new tips or categories?
+                    <br>
                     <input type="text" id="suggestions" name="suggestions" placeholder="Suggestions ...">
                 </fieldset>
             </div>
