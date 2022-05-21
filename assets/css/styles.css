@@ -313,7 +313,7 @@ footer {
 
 form {
     color: silver;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 10px 20px;
 }
 
@@ -339,6 +339,6 @@ legend {
     color: gray;
 }
 
-input[type="radio"] {
-    padding: 0 10px;
+.radiobutton-label {
+    margin-right: 20px;
 }
