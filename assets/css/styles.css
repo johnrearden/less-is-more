@@ -322,4 +322,9 @@ form {
 fieldset {
     padding: 10px;
     border-radius: 5px;
+    border-color: gray;
+}
+
+legend {
+    color: gray;
 }
