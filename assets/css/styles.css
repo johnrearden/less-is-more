@@ -122,7 +122,6 @@ footer {
 /* SITE RATIONALE */
 #site-rationale {
     position: absolute;
-    background-color: rgb(100, 0, 0, 0.7);
     width: 30vw;
     font-size: 1rem;
     text-align: center;
@@ -131,6 +130,7 @@ footer {
 }
 
 #user-welcome {
+    background-color: rgb(100, 0, 0, 0.7);
     padding: 10px 10px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -138,6 +138,13 @@ footer {
 
 #user-welcome h1 {
     margin-bottom: 10px;
+}
+
+#corporate-contact {
+    background-color: rgb(0, 0, 100, 0.7);
+    padding: 10px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 766px) {
