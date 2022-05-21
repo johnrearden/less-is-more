@@ -362,3 +362,53 @@ legend {
 .radiobutton-label {
     margin-right: 20px;
 }
+
+@media screen and (max-width:1400px) {
+    form {
+        width: 90%;
+        font-size: 1.0rem;
+    }
+
+    fieldset {
+        padding: 10px 10px 10px 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #grid-layout {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    form {
+        width: 95%;
+        font-size: 0.8rem;
+    }
+
+    .radiobutton-label {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    form {
+        width: 100%;
+        font-size: 0.8rem;
+        margin: 5px auto;
+    }
+
+    .radiobutton-label {
+        margin-right: 5px;
+    }
+
+    .fieldset-holder {
+        margin: 5px 5px;
+    }
+
+    #personal-details label{
+        display: block;
+        text-align: left;
+        min-width: 100px;
+    }
+}
