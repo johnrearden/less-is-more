@@ -338,6 +338,7 @@ fieldset {
     border-color: gray;
     line-height: 150%;
     border-radius: 10px;
+    height: 100%;
 }
 
 #personal-details label{
@@ -352,7 +353,6 @@ fieldset {
     border-radius: 10px;
     margin: 20px 20px;
     box-sizing: border-box;
-    
 }
 
 legend {
