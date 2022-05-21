@@ -140,11 +140,19 @@ Here's the page giving tips on saving money in the home
 
 
 
-Finally, a form to allow the user to contact us for updates and more info
+A form to allow the user to contact us for updates and more info
 <br>
 <img src='https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png' width='800' 
 height='500'>
 <hr>
+<br>
+
+And a form/marketing page for corporate users
+<img src='https://share.balsamiq.com/c/3UeDEBx3YhRS5Dwq8cw4Yx.png' width='800' 
+height='500'>
+<br>
+<img src='https://share.balsamiq.com/c/qtBpAjbBspSDxDkXPNF8Bx.png'>
+<br>
 
 ### **Surface**
 ## Top-level considerations:
