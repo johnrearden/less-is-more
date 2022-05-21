@@ -78,7 +78,7 @@ nav a {
 
 /* FOOTER STYLING - Common to all pages */
 footer {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8));
+    background-color: rgb(40, 40, 40);
     width: 100%;
     height: 50px;
     line-height: 50px;
