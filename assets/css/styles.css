@@ -411,4 +411,41 @@ legend {
         text-align: left;
         min-width: 100px;
     }
+
+    
+}
+
+/* CORPORATE CONTACT STYLING */
+
+#row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.consultation-panel {
+    width: 20vw;
+    margin: 0 50px;
+}
+
+.consultation-panel h2 {
+    color: white;
+}
+
+.consultation-panel img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#corportate-contact-form {
+    text-align: center;
+}
+
+#corporate-contact-form .fieldset-holder {
+    width: 50vw;
+    margin: 0 auto;
 }
