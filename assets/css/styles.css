@@ -407,7 +407,7 @@ textarea {
 #personal-details input,
 #personal-details select,
 textarea {
-    background-color: #222266;
+    background-color: #222233;
     color: silver;
     font-size: 1.1rem;
     padding: 3px;
@@ -429,7 +429,7 @@ legend {
     box-sizing: border-box;
     border-radius: 3px;
     padding: 0 5px;
-    background-color: #222266;
+    background-color: #222244;
     border: 1px solid #222288;
 }
 
