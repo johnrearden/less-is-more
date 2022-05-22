@@ -70,28 +70,44 @@
                         <!--Radio buttons to select household status-->
                         Household Status
                         <div>
-                            <input type="radio" id="owner" name="status" value="Owner">
-                            <label for="owner" class="radiobutton-label">Owner</label>
-                            <input type="radio" id="renter" name="status" value="Renter">
-                            <label for="renter" class="radiobutton-label">Renter</label>
-                            <input type="radio" id="other" name="status" value="Other">
-                            <label for="other" class="radiobutton-label">Other</label>
+                            <div class="status-wrapper">
+                                <input type="radio" id="owner" name="status" value="Owner">
+                                <label for="owner" class="radiobutton-label">Owner</label>
+                            </div>
+                            <div class="status-wrapper">
+                                <input type="radio" id="renter" name="status" value="Renter">
+                                <label for="renter" class="radiobutton-label">Renter</label>
+                            </div>
+                            <div class="status-wrapper">
+                                <input type="radio" id="other" name="status" value="Other">
+                                <label for="other" class="radiobutton-label">Other</label>
+                            </div>
                         </div>
                         <br>
 
                         <!--Radio buttons to select heating type-->
                         Type of Heating
                         <div>
-                            <input type="radio" id="gas" name="heating" value="Gas">
-                            <label for="gas" class="radiobutton-label">Gas</label>
-                            <input type="radio" id="oil" name="heating" value="Oil">
-                            <label for="oil" class="radiobutton-label">Oil</label>
-                            <input type="radio" id="geothermal" name="heating" value="Geothermal">
-                            <label for="geothermal" class="radiobutton-label">Geothermal</label>
-                            <input type="radio" id="air_to_water" name="heating" value="Air to Water">
-                            <label for="air_to_water" class="radiobutton-label">Air to Water</label>
-                            <input type="radio" id="other" name="heating" value="Other">
-                            <label for="other" class="radiobutton-label">Other</label>
+                            <div class="heating-wrapper">
+                                <input type="radio" id="gas" name="heating" value="Gas">
+                                <label for="gas" class="radiobutton-label">Gas</label>
+                            </div>
+                            <div class="heating-wrapper">
+                                <input type="radio" id="oil" name="heating" value="Oil">
+                                <label for="oil" class="radiobutton-label">Oil</label>
+                            </div>
+                            <div class="heating-wrapper">
+                                <input type="radio" id="geothermal" name="heating" value="Geothermal">
+                                <label for="geothermal" class="radiobutton-label">Geothermal</label>
+                            </div>
+                            <div class="heating-wrapper">
+                                <input type="radio" id="air_to_water" name="heating" value="Air to Water">
+                                <label for="air_to_water" class="radiobutton-label">Air to Water</label>
+                            </div>
+                            <div class="heating-wrapper">
+                                <input type="radio" id="some-other" name="heating" value="Other">
+                                <label for="some-other" class="radiobutton-label">Other</label>
+                            </div>
                         </div>
 
                     </fieldset>
@@ -105,30 +121,48 @@
                         How do you travel to work/school?
                         <br>
                         <div>
-                            <input type="radio" id="walk" name="status" value="Walk">
-                            <label for="walk" class="radiobutton-label">Walk</label>
-                            <input type="radio" id="cycle" name="status" value="Cycle">
-                            <label for="cycle" class="radiobutton-label">Cycle</label>
-                            <input type="radio" id="bus" name="status" value="Bus">
-                            <label for="bus" class="radiobutton-label">Bus</label>
-                            <input type="radio" id="train" name="status" value="Train">
-                            <label for="train" class="radiobutton-label">Train</label>
-                            <input type="radio" id="walk" name="status" value="Walk">
-                            <label for="car" class="radiobutton-label">Car</label>
+                            <div class="travel-wrapper">
+                                <input type="radio" id="walk" name="travel" value="Walk">
+                                <label for="walk" class="radiobutton-label">Walk</label>
+                            </div>
+                            <div class="travel-wrapper">
+                                <input type="radio" id="cycle" name="travel" value="Cycle">
+                                <label for="cycle" class="radiobutton-label">Cycle</label>
+                            </div>
+                            <div class="travel-wrapper">
+                                <input type="radio" id="bus" name="travel" value="Bus">
+                                <label for="bus" class="radiobutton-label">Bus</label>
+                            </div>
+                            <div class="travel-wrapper">
+                                <input type="radio" id="train" name="travel" value="Train">
+                                <label for="train" class="radiobutton-label">Train</label>
+                            </div>
+                            <div class="travel-wrapper">
+                                <input type="radio" id="car" name="travel" value="car">
+                                <label for="car" class="radiobutton-label">Car</label>
+                            </div>
                         </div>
                         <br>
 
                         <!-- Radio buttons to select length of commute-->
                         How long does your commute take?
                         <div>
-                            <input type="radio" id="0-15" name="status" value="0-15">
-                            <label for="0-15" class="radiobutton-label">0 - 15mn</label>
-                            <input type="radio" id="15-30" name="status" value="15-30">
-                            <label for="15-30" class="radiobutton-label">15 - 30mn</label>
-                            <input type="radio" id="30-1hr" name="status" value="30-1hr">
-                            <label for="30-1hr" class="radiobutton-label">30mn - 1hr</label>
-                            <input type="radio" id=">1hr" name="status" value=">1hr">
-                            <label for=">1hr" class="radiobutton-label">> 1hr</label>
+                            <div class="commute-wrapper">
+                                <input type="radio" id="0-15" name="commute-time" value="0-15">
+                                <label for="0-15" class="radiobutton-label">0 - 15mn</label>
+                            </div>
+                            <div class="commute-wrapper">
+                                <input type="radio" id="15-30" name="commute-time" value="15-30">
+                                <label for="15-30" class="radiobutton-label">15 - 30mn</label>
+                            </div>
+                            <div class="commute-wrapper">
+                                <input type="radio" id="30-1hr" name="commute-time" value="30-1hr">
+                                <label for="30-1hr" class="radiobutton-label">30mn - 1hr</label>
+                            </div>
+                            <div class="commute-wrapper">
+                                <input type="radio" id=">1hr" name="commute-time" value=">1hr">
+                                <label for=">1hr" class="radiobutton-label">> 1hr</label>
+                            </div>
                         </div>
                         <br>
 

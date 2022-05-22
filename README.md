@@ -191,3 +191,6 @@ https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
 
 CSS grid layout:
 https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-columns
+
+Custom styling for radio buttons:
+https://stackoverflow.com/questions/18377980/use-text-act-as-a-radio-button-make-string-into-a-radio-button

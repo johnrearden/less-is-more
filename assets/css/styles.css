@@ -279,11 +279,13 @@ footer {
     overflow: hidden;
 }
 
-.tip-panel h1, h4 {
+.tip-panel h1,
+h4 {
     text-align: center;
 }
 
-.tip-panel p, .tip-panel li {
+.tip-panel p,
+.tip-panel li {
     width: 90%;
     margin: 0 auto;
 }
@@ -392,7 +394,7 @@ fieldset {
     height: 100%;
 }
 
-#personal-details label{
+#personal-details label {
     display: inline-block;
     text-align: right;
     min-width: 100px;
@@ -411,7 +413,32 @@ legend {
 }
 
 .radiobutton-label {
-    margin-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid #2222cc;
+    border-radius: 3px;
+    padding: 0 5px;
+    background-color: #222244;
+}
+
+input[type='radio'] {
+    visibility: hidden;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.status-wrapper,
+.heating-wrapper,
+.travel-wrapper,
+.commute-wrapper {
+    display: inline-block;
+}
+
+.status-wrapper input:checked+label,
+.heating-wrapper input:checked+label,
+.travel-wrapper input:checked+label,
+.commute-wrapper input:checked+label {
+    background-color: #2222cc;
 }
 
 @media screen and (max-width:1400px) {
@@ -457,13 +484,13 @@ legend {
         margin: 5px 5px;
     }
 
-    #personal-details label{
+    #personal-details label {
         display: block;
         text-align: left;
         min-width: 100px;
     }
 
-    
+
 }
 
 /* CORPORATE CONTACT STYLING */
@@ -510,7 +537,7 @@ legend {
     margin: 0 auto;
 }
 
-#company-contact-info label{
+#company-contact-info label {
     display: inline-block;
     text-align: right;
     min-width: 100px;
@@ -520,14 +547,14 @@ legend {
     #row {
         width: 70vw;
     }
-    
+
 }
 
 @media screen and (max-width:768px) {
     #row {
         width: 90vw;
     }
-    
+
 }
 
 @media screen and (max-width:600px) {
@@ -547,5 +574,5 @@ legend {
         width: 95vw;
         margin: 0 auto;
     }
-    
+
 }
