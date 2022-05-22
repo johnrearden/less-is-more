@@ -40,12 +40,8 @@
                     <fieldset id="personal-details">
                         <legend>Personal Details</legend>
                         <div>
-                            <label for="name">First Name</label>
-                            <input type="text" id="fname" name="first_name">
-                        </div>
-                        <div>
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="last_name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
                         </div>
                         <div>
                             <label for="email">Email</label>
@@ -69,7 +65,7 @@
 
                         <!--Radio buttons to select household status-->
                         Household Status
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="status-wrapper">
                                 <input type="radio" id="owner" name="status" value="Owner">
                                 <label for="owner" class="radiobutton-label">Owner</label>
@@ -87,7 +83,7 @@
 
                         <!--Radio buttons to select heating type-->
                         Type of Heating
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="heating-wrapper">
                                 <input type="radio" id="gas" name="heating" value="Gas">
                                 <label for="gas" class="radiobutton-label">Gas</label>
@@ -120,7 +116,7 @@
                         <!-- Radio buttons to select method of travel to work/school-->
                         How do you travel to work/school?
                         <br>
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="travel-wrapper">
                                 <input type="radio" id="walk" name="travel" value="Walk">
                                 <label for="walk" class="radiobutton-label">Walk</label>
@@ -146,7 +142,7 @@
 
                         <!-- Radio buttons to select length of commute-->
                         How long does your commute take?
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="commute-wrapper">
                                 <input type="radio" id="0-15" name="commute-time" value="0-15">
                                 <label for="0-15" class="radiobutton-label">0 - 15mn</label>
@@ -169,7 +165,7 @@
                         <!-- Radiobuttons to select weekly cost of communte-->
                         How much do you spend a week on transport?
                         <br>
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="spend-wrapper">
                                 <input type="radio" id="<20" name="commute-spend" value="<20">
                                 <label for="<20" class="radiobutton-label">
@@ -196,7 +192,7 @@
                         <legend>Feedback</legend>
                         How useful did you find out tips (1 - 5)?
                         <br>
-                        <div>
+                        <div class="radiobutton-holder">
                             <div class="rating">
                                 <input type="radio" id="one" name="rating" value="one">
                                 <label for="one" id="red" class="radiobutton-label">1</label>

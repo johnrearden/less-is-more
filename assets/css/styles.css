@@ -411,6 +411,7 @@ textarea {
     color: silver;
     font-size: 1.1rem;
     padding: 3px;
+    margin-bottom: 7px;
 }
 
 .fieldset-holder {
@@ -425,12 +426,15 @@ legend {
     color: gray;
 }
 
+.radiobutton-holder {
+    margin-top: 5px;
+}
 .radiobutton-label {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 2px 7px;
-    background-color: #222244;
-    border: 1px solid #222288;
+    background-color: #444444;
+    border: 1px solid #777777;
     user-select: none;
 }
 
