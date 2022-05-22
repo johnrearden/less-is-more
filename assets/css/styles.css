@@ -50,15 +50,9 @@ header {
     content: url('/assets/images/site-icon-brighter.png')
 }
 
-#title-and-logo img {
-    margin-left: 30px;
-    height: 80px;
-    object-fit: contain;
-}
-
 nav li {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 30px;
     list-style-type: none;
     height: 100px;
@@ -289,16 +283,10 @@ footer {
     text-align: center;
 }
 
-.tip-panel p, li {
+.tip-panel p, .tip-panel li {
     width: 90%;
     margin: 0 auto;
 }
-
-/* .tip-panel ul {
-    display: inline-block;
-    text-align: left;
-    margin-bottom: 5px;
-} */
 
 .tip-panel strong {
     font-family: monospace;
