@@ -427,10 +427,40 @@ legend {
 
 .radiobutton-label {
     box-sizing: border-box;
-    border-radius: 3px;
-    padding: 0 5px;
+    border-radius: 10px;
+    padding: 2px 7px;
     background-color: #222244;
     border: 1px solid #222288;
+}
+
+.rating label {
+    padding: 0 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+.rating #red {
+    background-color: red;
+}
+
+.rating #orange {
+    background-color: orange;
+}
+
+.rating #yellow {
+    background-color: yellow;
+}
+
+.rating #darkgreen {
+    background-color: darkgreen;
+}
+
+.rating #lightgreen {
+    background-color: lightgreen;
+}
+
+.rating input:checked + label {
+    border: 3px solid white;
 }
 
 input[type='radio'] {
@@ -443,14 +473,17 @@ input[type='radio'] {
 .status-wrapper,
 .heating-wrapper,
 .travel-wrapper,
-.commute-wrapper {
+.commute-wrapper,
+.spend-wrapper,
+.rating {
     display: inline-block;
 }
 
 .status-wrapper input:checked+label,
 .heating-wrapper input:checked+label,
 .travel-wrapper input:checked+label,
-.commute-wrapper input:checked+label {
+.commute-wrapper input:checked+label,
+.spend-wrapper input:checked+label {
     background-color: #2222cc;
 }
 

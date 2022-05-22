@@ -166,19 +166,58 @@
                         </div>
                         <br>
 
-                        <!-- Slider to select weekly cost of communte-->
+                        <!-- Radiobuttons to select weekly cost of communte-->
                         How much do you spend a week on transport?
                         <br>
-                        <input type="range" id="commute_cost" max="100" min="0" value="50" step="25">
+                        <div>
+                            <div class="spend-wrapper">
+                                <input type="radio" id="<20" name="commute-spend" value="<20">
+                                <label for="<20" class="radiobutton-label">
+                                    < &euro;20</label>
+                            </div>
+                            <div class="spend-wrapper">
+                                <input type="radio" id="20-50" name="commute-spend" value="20-50">
+                                <label for="20-50" class="radiobutton-label">&euro;20 - &euro;50</label>
+                            </div>
+                            <div class="spend-wrapper">
+                                <input type="radio" id="50-100" name="commute-spend" value="50-100">
+                                <label for="50-100" class="radiobutton-label">&euro;50 - &euro;100</label>
+                            </div>
+                            <div class="spend-wrapper">
+                                <input type="radio" id=">100" name="commute-spend" value=">100">
+                                <label for=">100" class="radiobutton-label">> &euro;100</label>
+                            </div>
+                        </div>
                     </fieldset>
                 </div>
 
                 <div class="fieldset-holder">
                     <fieldset>
                         <legend>Feedback</legend>
-                        How useful did you find out tips (1 - 10)?
+                        How useful did you find out tips (1 - 5)?
                         <br>
-                        <input type="range" id="commute cost" max="10" min="1" value="50" step="25">
+                        <div>
+                            <div class="rating">
+                                <input type="radio" id="one" name="rating" value="one">
+                                <label for="one" id="red" class="radiobutton-label">1</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="two" name="rating" value="two">
+                                <label for="two" id="orange" class="radiobutton-label">2</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="three" name="rating" value="three">
+                                <label for="three" id="yellow" class="radiobutton-label">3</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="four" name="rating" value="four">
+                                <label for="four" id="darkgreen" class="radiobutton-label">4</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="five" name="rating" value="five">
+                                <label for="five" id="lightgreen" class="radiobutton-label">5</label>
+                            </div>
+                        </div>
                         <br>
                         Any suggestions for new tips or categories?
                         <br>
