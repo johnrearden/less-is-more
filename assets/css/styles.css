@@ -5,11 +5,12 @@
 }
 
 body {
-    background-image: url('../images/clouds_with_text.png');
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/coins.png');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: 30% 30%;
-    background-attachment: fixed;
     font-family: 'Barlow Condensed', sans-serif;
     color: silver;
     background-color: gray;
@@ -183,18 +184,21 @@ footer {
     position: absolute;
     bottom: 80px;
     text-align: center;
+    color: black;
 }
 
 #navigation-icons {
     padding: 10px 10px;
     display: inline-block;
     font-size: 4vw;
-    background-color: rgb(0, 0, 0, 0.7);
+    background-color:silver;
     border-radius: 10px;
+    border: 3px solid #444444;
     box-sizing: border-box;
 }
 
 #navigation-icons i {
+    color: silver;
     padding: 10px;
     background-color: rgba(148, 79, 15, 0.5);
     border-radius: 10px;
@@ -209,7 +213,7 @@ footer {
 
 #navigation-icons a {
     text-decoration: none;
-    color: silver;
+    
 }
 
 #navigation-icons a:hover i {
