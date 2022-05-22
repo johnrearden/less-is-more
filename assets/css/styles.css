@@ -75,6 +75,11 @@ nav a {
         font-size: .75rem;
     }
 
+    #title-and-logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
     nav li {
         font-size: 1rem;
         margin-right: 10px;
