@@ -431,6 +431,7 @@ legend {
     padding: 2px 7px;
     background-color: #222244;
     border: 1px solid #222288;
+    user-select: none;
 }
 
 .rating label {
