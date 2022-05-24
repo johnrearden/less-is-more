@@ -51,6 +51,8 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     animation-name: ripples-fade-out;
     animation-duration: 6s;
@@ -358,15 +360,6 @@ h4 {
     box-sizing: border-box;
 }
 
-@keyframes tip-image-color-drain {
-    from {
-        opacity: 1.0;
-    }
-    to {
-        opacity: 0.0;
-    }
-}
-
 .tip-panel p {
     padding: 10px 10px;
 }
@@ -393,7 +386,7 @@ h4 {
     #container {
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-around; */
+        justify-content: space-evenly;
         margin-top: 10px;
         margin-bottom: 50px;
         height: auto;
@@ -410,7 +403,7 @@ h4 {
     }
 
     .tip-panel img {
-        margin: 20px;
+        margin: 10px;
         height: 30vh;
         max-width: 50%;
         min-width: 50%;
@@ -419,8 +412,12 @@ h4 {
 
     .tip-panel .heading-and-text {
         text-align: left;
-        width: 30%;
+        width: 50%;
         margin: 10px 0;
+    }
+
+    .tip-panel p {
+        width: 100%;
     }
 }
 
@@ -433,7 +430,11 @@ h4 {
 
     .tip-panel img {
         height: 90%;
+        max-width: 40%;
+        min-width: 40%;
     }
+
+    
 }
 
 @media screen and (max-width: 480px) {
