@@ -16,10 +16,27 @@ body {
     background-color: gray;
 }
 
-#blended-images {
+.no-text-background {
+    background-image: url('../images/clouds.png');
+}
+
+/* IMAGE BLENDING */
+
+
+@keyframes ripples-fade-out {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
+
+#blended-image {
     position: relative;
     height: 90vh;
     width: 100%;
+    
 }
 
 #ripples-image {
@@ -27,10 +44,9 @@ body {
     left: 0;
     top: 0;
     object-fit: cover;
-}
-
-.no-text-background {
-    background-image: url('../images/clouds.png');
+    animation-name: ripples-fade-out;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /* HEADER STYLING - common to all pages */
