@@ -44,7 +44,7 @@ body {
     position: relative;
     height: 90vh;
     width: 100%;
-    
+    overflow: hidden;
 }
 
 #ripples-image {
