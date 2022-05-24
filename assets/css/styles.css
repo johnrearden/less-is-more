@@ -17,7 +17,7 @@ body {
 }
 
 .no-text-background {
-    background-image: url('../images/clouds.png');
+    background-image: url('../images/ripples.png');
 }
 
 /* IMAGE BLENDING AND USER QUESTION */
@@ -27,7 +27,7 @@ body {
         opacity: 1.0;
     }
     to {
-        opacity: 0.5;
+        opacity: 0.3;
     }
 }
 
@@ -53,7 +53,7 @@ body {
     top: 0;
     object-fit: cover;
     animation-name: ripples-fade-out;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -356,6 +356,15 @@ h4 {
     margin: 5% 20px;
     object-fit: contain;
     box-sizing: border-box;
+}
+
+@keyframes tip-image-color-drain {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
 }
 
 .tip-panel p {
