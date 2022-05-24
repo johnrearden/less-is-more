@@ -295,10 +295,6 @@ h4 {
     text-align: left;
 }
 
-.tip-panel strong {
-    font-family: monospace;
-}
-
 .tip-panel img {
     height: 50%;
     max-width: 80%;
@@ -310,6 +306,24 @@ h4 {
 
 .tip-panel p {
     padding: 10px 10px;
+}
+
+.link-to-more {
+    width: 90%;
+    text-align: right;
+    
+}
+
+.link-to-more a {
+    text-decoration: none;
+    color: inherit;
+    
+    padding: 3px;
+}
+
+.link-to-more a:hover {
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:1024px) {
