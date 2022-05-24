@@ -184,6 +184,7 @@ Standby      : wassa on deviantart.com
 Shower       : onlinedeals.uk.com
 Video Call   : Julia M. Cameron (sourced from www.pexels.com)
 On-site visit: RODNAE Productions (sourced from www.pexels.com)
+Ripples      : Johannes Plenio (sourced from www.pexels.com)
 
 ## Code:
 Aligning labels and text input fields vertically : 
