@@ -64,7 +64,27 @@
 
 # Technologies Used
 
-still to do
+## Languages used
+
+- HTML
+- CSS
+
+## Libraries and Programs Used
+1. [Google Fonts](https://fonts.google.com/) 
+    - Google Fonts were used to import the 'Quicksand' font which is used throughout the website.
+2. [Font Awesome](https://fontawesome.com/icons)
+    - Font Awesome was used throughout to add icons to enhance UX.
+3. [GIMP](https://www.gimp.org/)
+    - GNU Image Manipulation Program was used as an open source alternative to Photoshop to scale and alter all of the images on the site.
+4. [Balsamiq](https://balsamiq.cloud/)
+    - All wireframes were designed using Balsamiq.
+5. [Git](https://git-scm.com/)
+    - Version control was implemented using Git through the Github terminal.
+6. [Github](https://github.com/)
+    - Github was used to store the projects after being pushed from Git and its cloud service [Github Pages](https://pages.github.com/) was used to serve the project on the web.
+7. [Visual Studio Code](https://code.visualstudio.com/)
+    - VS Code was used temporarily after I had run out of Gitpod hours. The project was cloned to my local environment and changes pushed up to Github from there.
+
 
 # Testing
 
