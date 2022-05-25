@@ -13,7 +13,7 @@
 <ul>
     <li><h3><strong>User Stories</strong></h3></li>
     <ul>
-        <li>First Time Visitor Goals</li>
+        <li><strong>First Time Visitor Goals</strong></li>
         <ol>
             <li>
                 As a First Time Visitor, I want to be able to grasp the purpose of the site immediately.
@@ -26,7 +26,7 @@
                 As a First Time Visitor, I would like the first impression of the site to be eye-catching, in order to arouse my interest and curiosity.
             </li>
         </ol>
-        <li><h4>Returning Visitor Goals</h4></li>
+        <li><h4><strong>Returning Visitor Goals</strong></h4></li>
         <ol>
             <li>
                 As a Returning Visitor, I want to use the site content as
@@ -36,12 +36,45 @@
                 As a Returning Visitor, I want to use social links to find a community of other people also interested in economising on their household and motoring expenses.
             </li>
         </ol>
-        <li><h4>Frequent User Goals</h4></li>
+        <li><h4><strong>Frequent User Goals</strong></h4></li>
         <ol>
             <li>
                 As a Frequent User, I want to subscribe to a newsletter/email update service from the website to learn about more money-saving tips.
             </li>
         </ol>
+    </ul>
+    <br>
+    <li><h3><strong>Design</strong></h3></li>
+    <ul>
+        <li><strong>Colour Scheme</strong></li>
+        <ul>
+            <li>
+            The site is primarily monochrome, in black and white, with important
+            features in bold colours. The central features of images are in colour against a black and white background.
+            </li>
+        </ul>
+        <li><strong>Typography</strong></li>
+        <ul>
+            <li>
+                The Quicksand font is used throughout, with basic Sans Serif as the fallback in case the font import fails. This font is simple and clean, and its rounded character reflects the friendly, informal nature of the information on the site.
+            </li>
+        </ul>
+        <li><strong>Imagery</strong></li>
+        <ul>
+            <li>
+            The hero image (of coins) has an overlay of another image (of ripples on water) which fades to a low opacity on page load. This evokes the experience of seeing coins at the bottom of a wishing well or fountain, which is reinforced by the user message on the homepage - 'Wish your bills were smaller?'
+            </li>
+            <li>
+            The images used for each tips are simple and unambiguous, with the central feature in each image being in colour against a backdrop of black and white, in order to provide emphasis.
+            </li>
+        </ul>
+    </ul>
+    <br>
+    <li><h3><strong>Wireframes</strong></h3></li>
+    <ul>
+        <li>
+        Desktop Wireframes - <a href='https://share.balsamiq.com/c/u49Yj3JpZQCiJefFBKy9XY.png'>View</a>
+        </li>
     </ul>
 </ul>
 
