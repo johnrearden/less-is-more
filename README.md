@@ -189,7 +189,7 @@ Ripples      : Johannes Plenio (sourced from www.pexels.com)
 ## Code:
 Aligning labels and text input fields vertically : 
 https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
-
+a
 CSS grid layout:
 https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-columns
 
