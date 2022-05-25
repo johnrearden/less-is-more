@@ -7,6 +7,35 @@
 <img src='assets/images/responsive-screenshots.png' alt='screenshots of project'>
 <hr>
 
+### User Experience (UX) ###
+<hr>
+
+<ul>
+    <li><h3><strong>User Stories</strong></h3></li>
+    <ul>
+        <li><strong>First Time Visitor Goals</strong></li>
+        <ol>
+            <li>
+                As a First Time Visitor, I want to be able to grasp the purpose of the site immediately.
+            </li>
+            <li>
+                As a First Time Visitor, I want to be able to navigate
+                with ease through the site to find content.
+            </li>
+            <li>
+                As a First Time Visitor, I would like the first impression of the site to be eye-catching, in order to arouse my interest and curiosity.
+            </li>
+        </ol>
+        <li><h4><strong>Returning Visitor Goals</strong></h4></li>
+        <ol>
+            <li>
+                As a Returning Visitor, 
+            </li>
+        </ol>
+    </ul>
+</ul>
+
+
 ## **Strategy**
 #### Business Goal :
 To draw visitors to the site
