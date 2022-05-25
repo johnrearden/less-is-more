@@ -237,6 +237,7 @@ footer {
 
 #navigation-section {
     width: 100%;
+    height: 10vh;
     position: absolute;
     bottom: 80px;
     text-align: center;
@@ -244,7 +245,8 @@ footer {
 }
 
 #navigation-icons {
-    padding: 10px 10px;
+    height: 10vh;
+    line-height: 10vh;
     display: inline-block;
     font-size: 4vw;
     background-color:silver;
@@ -255,10 +257,23 @@ footer {
 
 #navigation-icons i {
     color: silver;
-    padding: 10px;
-    background-color: rgba(148, 79, 15, 0.5);
+    font-size: 150%;
     border-radius: 10px;
-    margin: 0 30px;
+    animation-name: icon-color-pulse;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes icon-color-pulse {
+    0% {
+        background-color: rgba(148, 79, 15, 0.5);
+    }
+    50% {
+        background-color: rgba(148, 79, 15, 1);
+    }
+    100% {
+        background-color: rgba(148, 79, 15, 0.5);
+    }
 }
 
 #navigation-icons div {
@@ -269,7 +284,6 @@ footer {
 
 #navigation-icons a {
     text-decoration: none;
-    
 }
 
 #navigation-icons a:hover i {
