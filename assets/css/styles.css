@@ -70,8 +70,8 @@ body {
     opacity: 0;
     font-size: 300%;
     animation-name: text-fade-in;
-    animation-duration: 4s;
-    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -242,37 +242,37 @@ footer {
     bottom: 80px;
     text-align: center;
     color: black;
+    box-sizing: border-box;
 }
 
 #navigation-icons {
     height: 10vh;
     line-height: 10vh;
     display: inline-block;
-    font-size: 4vw;
+    font-size: 5vw;
     background-color:silver;
     border-radius: 10px;
-    border: 3px solid #444444;
-    box-sizing: border-box;
+    border: 4px solid #444444;
+    animation-name: icon-color-pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #navigation-icons i {
     color: silver;
-    font-size: 150%;
     border-radius: 10px;
-    animation-name: icon-color-pulse;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
+    background-color: rgba(148, 79, 15, 0.5);
 }
 
 @keyframes icon-color-pulse {
     0% {
-        background-color: rgba(148, 79, 15, 0.5);
+        border-color: silver;
     }
     50% {
-        background-color: rgba(148, 79, 15, 1);
+        border-color: rgba(148, 79, 15, 0.5);
     }
     100% {
-        background-color: rgba(148, 79, 15, 0.5);
+        border-color: silver;
     }
 }
 
