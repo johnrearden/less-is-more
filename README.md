@@ -49,14 +49,18 @@
         - [desktop](https://share.balsamiq.com/c/u49Yj3JpZQCiJefFBKy9XY.png)
         - [mobile](https://share.balsamiq.com/c/wT29ut8XS929gETQtMB49G.png)
     - Tips pages
-        - [desktop](https://share.balsamiq.com/c/rTf6pqjYgGfjJCMQBMNrrk.png)
-        - [mobile](https://share.balsamiq.com/c/cLETk2Km4kUdhRrMipYcNs.png)
+        - [desktop](https://share.balsamiq.com/c/wzj7f2LUg6otfBtZPbfctZ.png)
+        - [mobile](https://share.balsamiq.com/c/4yaSMykZ7Wa8b1mikxWFKr.png)
     - Contact page
         - [desktop](https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png)
 
 # Features
 
-still to do
+- Responsive (tested on all device screen sizes from 4k desktop monitors down to a smallest mobile size of 320px)
+
+- Navigation buttons at bottom of screen which pulse gently to indicate interactivity
+
+- User message fades in when homepage image becomes visible to initiate communication with the user.
 
 # Technologies Used
 
