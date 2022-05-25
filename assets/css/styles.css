@@ -219,6 +219,15 @@ footer {
     background-color: rgb(0, 0, 100, 0.7);
 }
 
+#corporate-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#corporate-contact a:hover {
+    border-bottom: 1px solid silver;
+}
+
 .user-message {
     padding: 10px 10px;
     margin: 0 auto;
