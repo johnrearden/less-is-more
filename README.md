@@ -5,10 +5,10 @@
 [View the live project here](https://johnrearden.github.io/less-is-more/)
 
 <img src='assets/images/responsive-screenshots.png' alt='screenshots of project'>
-<hr>
 
-### <strong>User Experience (UX)</strong> ###
-<hr>
+---
+
+# User Experience (UX)
 
 - ### User Stories
 
@@ -28,7 +28,7 @@
     - #### Frequent User Goals
 
         - As a Frequent User, I want to subscribe to a newsletter/email update service from the website to learn about more money-saving tips.
-    <br>
+
 
 - ### Design
 
@@ -47,32 +47,64 @@
 - ### Wireframes
     - Homepage 
         - [desktop](https://share.balsamiq.com/c/u49Yj3JpZQCiJefFBKy9XY.png)
+        - [mobile](https://share.balsamiq.com/c/wT29ut8XS929gETQtMB49G.png)
     - Tips pages
         - [desktop](https://share.balsamiq.com/c/rTf6pqjYgGfjJCMQBMNrrk.png)
         - [mobile](https://share.balsamiq.com/c/cLETk2Km4kUdhRrMipYcNs.png)
     - Contact page
         - [desktop](https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png)
-<hr>
 
-# Manual Testing
+# Features
+
+still to do
+
+# Technologies Used
+
+still to do
+
+# Testing
+
+## Testing User Stories from UX section
+
+## Manual Testing
 Feature | Expected | Action | Result
 --------|----------|--------|-------
 Home button | Returns user to homepage | Clicked Home on NavBar | Home page opened sucessfully |
 
-<br>
+## Further Testing
+
+still to do
+
+# Known Bugs
+
+still to do
+
+# Deployment
+
+still to do
 
 # Credits
 ## Images:
 Fast red car : Pixabay (sourced from www.pexels.com)
+
 Dog in window: Charles Roth (sourced from www.pexels.com)
+
 Tyre         : Mike (sourced from www.pexels.com)
+
 Solo Driver  : Andrew Piacquadio (sourced from www.pexels.com)
+
 Kettle       : Dids (sourced from www.pexels.com)
+
 Lightbulb    : Jonathan Borba (sourced from www.pexels.com)
+
 Standby      : wassa on deviantart.com
+
 Shower       : onlinedeals.uk.com
+
 Video Call   : Julia M. Cameron (sourced from www.pexels.com)
+
 On-site visit: RODNAE Productions (sourced from www.pexels.com)
+
 Ripples      : Johannes Plenio (sourced from www.pexels.com)
 
 ## Code:
