@@ -1,7 +1,10 @@
-# **Less is More**
+# **Less is More Website**
 
-### A website that helps visitors save money in their home and in their car 
+### A website that helps visitors spend less in their home and on their car.
 
+[View the live project here](https://johnrearden.github.io/less-is-more/)
+
+<img src='assets/images/responsive-screenshots.png' alt='screenshots of project'>
 <hr>
 
 ## **Strategy**
@@ -189,7 +192,7 @@ Ripples      : Johannes Plenio (sourced from www.pexels.com)
 ## Code:
 Aligning labels and text input fields vertically : 
 https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
-a
+
 CSS grid layout:
 https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-columns
 
