@@ -11,8 +11,7 @@
     <link href="assets/css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Less is More</title>
 </head>
 
@@ -32,14 +31,169 @@
         </div>
     </header>
 
-    <div id="blended-image">
-        <img id="ripples-image" src="/assets/images/ripples.png" alt="Picture of ripples on water in black and white">
+    <div class="fieldset-holder">
+        <fieldset>
+            <legend>Household</legend>
 
-        <div id="user-question">
-            <h1>Wish your bills were smaller?</h1>
-        </div>
+            <!--Radio buttons to select household status-->
+            Household Status
+            <div class="radiobutton-holder">
+                <div class="status-wrapper">
+                    <input type="radio" id="owner" name="status" value="Owner">
+                    <label for="owner" class="radiobutton-label">Owner</label>
+                </div>
+                <div class="status-wrapper">
+                    <input type="radio" id="renter" name="status" value="Renter">
+                    <label for="renter" class="radiobutton-label">Renter</label>
+                </div>
+                <div class="status-wrapper">
+                    <input type="radio" id="other" name="status" value="Other">
+                    <label for="other" class="radiobutton-label">Other</label>
+                </div>
+            </div>
+            <br>
 
-        
+            <!--Radio buttons to select heating type-->
+            Type of Heating
+            <div class="radiobutton-holder">
+                <div class="heating-wrapper">
+                    <input type="radio" id="gas" name="heating" value="Gas">
+                    <label for="gas" class="radiobutton-label">Gas</label>
+                </div>
+                <div class="heating-wrapper">
+                    <input type="radio" id="oil" name="heating" value="Oil">
+                    <label for="oil" class="radiobutton-label">Oil</label>
+                </div>
+                <div class="heating-wrapper">
+                    <input type="radio" id="geothermal" name="heating" value="Geothermal">
+                    <label for="geothermal" class="radiobutton-label">Geothermal</label>
+                </div>
+                <div class="heating-wrapper">
+                    <input type="radio" id="air_to_water" name="heating" value="Air to Water">
+                    <label for="air_to_water" class="radiobutton-label">Air to Water</label>
+                </div>
+                <div class="heating-wrapper">
+                    <input type="radio" id="some-other" name="heating" value="Other">
+                    <label for="some-other" class="radiobutton-label">Other</label>
+                </div>
+            </div>
+
+        </fieldset>
+    </div>
+
+    <div class="fieldset-holder">
+        <fieldset>
+            <legend>Transport</legend>
+
+            <!-- Radio buttons to select method of travel to work/school-->
+            How do you travel to work/school?
+            <br>
+            <div class="radiobutton-holder">
+                <div class="travel-wrapper">
+                    <input type="radio" id="walk" name="travel" value="Walk">
+                    <label for="walk" class="radiobutton-label">Walk</label>
+                </div>
+                <div class="travel-wrapper">
+                    <input type="radio" id="cycle" name="travel" value="Cycle">
+                    <label for="cycle" class="radiobutton-label">Cycle</label>
+                </div>
+                <div class="travel-wrapper">
+                    <input type="radio" id="bus" name="travel" value="Bus">
+                    <label for="bus" class="radiobutton-label">Bus</label>
+                </div>
+                <div class="travel-wrapper">
+                    <input type="radio" id="train" name="travel" value="Train">
+                    <label for="train" class="radiobutton-label">Train</label>
+                </div>
+                <div class="travel-wrapper">
+                    <input type="radio" id="car" name="travel" value="car">
+                    <label for="car" class="radiobutton-label">Car</label>
+                </div>
+            </div>
+            <br>
+
+            <!-- Radio buttons to select length of commute-->
+            How long does your commute take?
+            <div class="radiobutton-holder">
+                <div class="commute-wrapper">
+                    <input type="radio" id="0-15" name="commute-time" value="0-15">
+                    <label for="0-15" class="radiobutton-label">0 - 15mn</label>
+                </div>
+                <div class="commute-wrapper">
+                    <input type="radio" id="15-30" name="commute-time" value="15-30">
+                    <label for="15-30" class="radiobutton-label">15 - 30mn</label>
+                </div>
+                <div class="commute-wrapper">
+                    <input type="radio" id="30-1hr" name="commute-time" value="30-1hr">
+                    <label for="30-1hr" class="radiobutton-label">30mn - 1hr</label>
+                </div>
+                <div class="commute-wrapper">
+                    <input type="radio" id=">1hr" name="commute-time" value=">1hr">
+                    <label for=">1hr" class="radiobutton-label">> 1hr</label>
+                </div>
+            </div>
+            <br>
+
+            <!-- Radiobuttons to select weekly cost of communte-->
+            How much do you spend a week on transport?
+            <br>
+            <div class="radiobutton-holder">
+                <div class="spend-wrapper">
+                    <input type="radio" id="<20" name="commute-spend" value="<20">
+                    <label for="<20" class="radiobutton-label">
+                        < &euro;20</label>
+                </div>
+                <div class="spend-wrapper">
+                    <input type="radio" id="20-50" name="commute-spend" value="20-50">
+                    <label for="20-50" class="radiobutton-label">&euro;20 - &euro;50</label>
+                </div>
+                <div class="spend-wrapper">
+                    <input type="radio" id="50-100" name="commute-spend" value="50-100">
+                    <label for="50-100" class="radiobutton-label">&euro;50 - &euro;100</label>
+                </div>
+                <div class="spend-wrapper">
+                    <input type="radio" id=">100" name="commute-spend" value=">100">
+                    <label for=">100" class="radiobutton-label">> &euro;100</label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="fieldset-holder">
+        <fieldset>
+            <legend>Feedback</legend>
+            How useful did you find out tips (1 - 5)?
+            <br>
+            <div class="radiobutton-holder">
+                <div class="rating">
+                    <input type="radio" id="one" name="rating" value="one">
+                    <label for="one" id="red" class="radiobutton-label">1</label>
+                </div>
+                <div class="rating">
+                    <input type="radio" id="two" name="rating" value="two">
+                    <label for="two" id="orange" class="radiobutton-label">2</label>
+                </div>
+                <div class="rating">
+                    <input type="radio" id="three" name="rating" value="three">
+                    <label for="three" id="yellow" class="radiobutton-label">3</label>
+                </div>
+                <div class="rating">
+                    <input type="radio" id="four" name="rating" value="four">
+                    <label for="four" id="darkgreen" class="radiobutton-label">4</label>
+                </div>
+                <div class="rating">
+                    <input type="radio" id="five" name="rating" value="five">
+                    <label for="five" id="lightgreen" class="radiobutton-label">5</label>
+                </div>
+            </div>
+            <br>
+            Any suggestions for new tips or categories?
+            <br>
+            <textarea rows="4" cols="50" id="suggestions" name="suggestions"></textarea>
+        </fieldset>
+    </div>
+    </div>
+
     <footer>
         <div id="copyright-message">
             &copy; <span>Copyright</span> 2022 John Rearden
