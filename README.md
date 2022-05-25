@@ -143,3 +143,6 @@ https://stackoverflow.com/questions/18377980/use-text-act-as-a-radio-button-make
 
 Infinitely repeating CSS animation:
 https://stackoverflow.com/questions/13994825/css3-animation-repeat
+
+Adding un-ignorable whitespace to HTML elements:
+https://www.thoughtco.com/spaces-in-html-3466574

@@ -13,32 +13,27 @@ body {
     background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
     color: silver;
-    background-color: gray;
+    background-color: black;
 }
 
 .no-text-background {
     background-image: url('../images/ripples.png');
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, .active {
+    border-bottom: 1px solid silver;
+}
+
+li {
+    list-style-type: none;
+}
+
 /* IMAGE BLENDING AND USER QUESTION */
-
-@keyframes ripples-fade-out {
-    from {
-        opacity: 1.0;
-    }
-    to {
-        opacity: 0.5;
-    }
-}
-
-@keyframes text-fade-in {
-    from {
-        opacity: 0.0;
-    }
-    to {
-        opacity: 1.0;
-    }
-}
 
 #blended-image {
     position: relative;
@@ -63,7 +58,6 @@ body {
     position: absolute;
     left: 50px;
     top: 50px;
-    color: silver;
 }
 
 #user-question h1 {
@@ -90,13 +84,10 @@ body {
 }
 
 /* HEADER STYLING - common to all pages */
-
 header {
     width: 100%;
     height: 10vh;
-    color: silver;
     background-color: black;
-    font-size: 1rem;
 }
 
 #title-and-logo {
@@ -112,10 +103,6 @@ header {
     object-fit: contain;
 }
 
-#title-and-logo a {
-    text-decoration: none;
-}
-
 #title-and-logo img:hover {
     content: url('/assets/images/site-icon-brighter.png')
 }
@@ -124,14 +111,8 @@ nav li {
     display: inline-block;
     font-size: 1.2rem;
     margin-right: 30px;
-    list-style-type: none;
     height: 10vh;
     line-height: 10vh;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -150,12 +131,8 @@ nav a {
     }
 }
 
-#top-nav-bar a:hover,
-.active {
-    border-bottom: 1px solid white;
-}
-
 /* FOOTER STYLING - Common to all pages */
+
 footer {
     background-color: rgb(40, 40, 40);
     width: 100%;
@@ -163,7 +140,6 @@ footer {
     line-height: 50px;
     position: fixed;
     bottom: 0;
-    font-size: 1rem;
 }
 
 #copyright-message {
@@ -179,11 +155,6 @@ footer {
 
 #social-links i {
     margin-right: 12vw;
-}
-
-#social-links a {
-    text-decoration: none;
-    color: inherit;
 }
 
 @media screen and (max-width:600px) {
@@ -208,9 +179,7 @@ footer {
 #site-rationale {
     position: absolute;
     width: 30vw;
-    font-size: 1rem;
     text-align: center;
-    top: 0;
     right: 0;
     line-height: 140%;
 }
@@ -223,26 +192,16 @@ footer {
     background-color: rgb(0, 0, 100, 0.7);
 }
 
-#corporate-contact a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#corporate-contact a:hover {
-    border-bottom: 1px solid silver;
-}
-
 .user-message {
     padding: 10px 10px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 .user-message h2{
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
     #site-rationale {
         width: 40vw;
         font-size: 0.9rem;
@@ -253,11 +212,6 @@ footer {
     #site-rationale {
         width: 100%;
         line-height: 120%;
-        font-size: 0.7rem;
-    }
-
-    #user-welcome {
-        padding: 10px 5px;
     }
 }
 
@@ -265,25 +219,19 @@ footer {
 
 #navigation-section {
     width: 100%;
-    height: 10vh;
     position: absolute;
     bottom: 80px;
     text-align: center;
     color: black;
-    box-sizing: border-box;
 }
 
 #navigation-icons {
-    height: 80px;
-    line-height: 80px;
+    padding: 10px 0;
     display: inline-block;
     font-size: 4vw;
     background-color:silver;
     border-radius: 10px;
-    border: 4px solid #444444;
-    animation-name: icon-color-pulse;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    border: 1px solid #444444;
 }
 
 #navigation-icons i {
@@ -293,67 +241,18 @@ footer {
     background-color: rgba(148, 79, 15, 0.5);
 }
 
-@keyframes icon-color-pulse {
-    0% {
-        border-color: silver;
-    }
-    50% {
-        border-color: rgba(148, 79, 15, 0.5);
-    }
-    100% {
-        border-color: silver;
-    }
-}
-
 #navigation-icons div {
     display: inline-block;
     width: 25vw;
-    font-size: 3vw;
-}
-
-#navigation-icons a {
-    text-decoration: none;
 }
 
 #navigation-icons a:hover i {
     background-color: rgb(255, 160, 30, 0.5);
 }
 
-@media screen and (max-width:1024px) {
-
-    #navigation-icons {
-        font-size: 3vw;
-    }
-}
-
-@media screen and (max-width:768px) {
-    #navigation-icons {
-        font-size: 1rem;
-    }
-
-    #navigation-icons i {
-        padding: 5px;
-        margin: 0 5px;
-    }
-
-    #navigation-icons div {
-        width: 25vw;
-        /* font-size: 0.8rem; */
-    }
-}
-
 @media screen and (min-width: 1024px) {
     #navigation-icons {
         font-size: 2.5rem;
-    }
-
-    #navigation-icons i {
-        padding: 5px;
-        margin: 0 5px;
-    }
-
-    #navigation-icons div {
-        font-size: 2rem;
     }
 }
 
@@ -799,4 +698,22 @@ input[type='radio'] {
         margin: 0 auto;
     }
 
+}
+
+@keyframes ripples-fade-out {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+@keyframes text-fade-in {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1.0;
+    }
 }
