@@ -7,13 +7,13 @@
 <img src='assets/images/responsive-screenshots.png' alt='screenshots of project'>
 <hr>
 
-### User Experience (UX) ###
+### <strong>User Experience (UX)</strong> ###
 <hr>
 
 <ul>
     <li><h3><strong>User Stories</strong></h3></li>
     <ul>
-        <li><strong>First Time Visitor Goals</strong></li>
+        <li>First Time Visitor Goals</li>
         <ol>
             <li>
                 As a First Time Visitor, I want to be able to grasp the purpose of the site immediately.
@@ -26,14 +26,28 @@
                 As a First Time Visitor, I would like the first impression of the site to be eye-catching, in order to arouse my interest and curiosity.
             </li>
         </ol>
-        <li><h4><strong>Returning Visitor Goals</strong></h4></li>
+        <li><h4>Returning Visitor Goals</h4></li>
         <ol>
             <li>
-                As a Returning Visitor, 
+                As a Returning Visitor, I want to use the site content as
+                a jumping-off point to further explore the issues raised.
+            </li>
+            <li>
+                As a Returning Visitor, I want to use social links to find a community of other people also interested in economising on their household and motoring expenses.
+            </li>
+        </ol>
+        <li><h4>Frequent User Goals</h4></li>
+        <ol>
+            <li>
+                As a Frequent User, I want to subscribe to a newsletter/email update service from the website to learn about more money-saving tips.
             </li>
         </ol>
     </ul>
 </ul>
+
+<hr>
+
+
 
 
 ## **Strategy**
