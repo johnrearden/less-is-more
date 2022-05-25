@@ -145,7 +145,7 @@ nav a {
     }
 
     nav li {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-right: 10px;
     }
 }
@@ -208,7 +208,7 @@ footer {
     text-align: center;
     top: 0;
     right: 0;
-    line-height: 150%;
+    line-height: 140%;
 }
 
 #user-welcome {
@@ -223,6 +223,7 @@ footer {
     padding: 10px 10px;
     margin: 0 auto;
     box-sizing: border-box;
+    font-size: 1.1rem;
 }
 
 .user-message h1 {
@@ -240,6 +241,7 @@ footer {
     #site-rationale {
         width: 100%;
         line-height: 120%;
+        font-size: 0.7rem;
     }
 
     #user-welcome {
@@ -260,10 +262,10 @@ footer {
 }
 
 #navigation-icons {
-    height: 10vh;
-    line-height: 10vh;
+    height: 80px;
+    line-height: 80px;
     display: inline-block;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color:silver;
     border-radius: 10px;
     border: 4px solid #444444;
@@ -273,6 +275,7 @@ footer {
 }
 
 #navigation-icons i {
+    padding: 10px;
     color: silver;
     border-radius: 10px;
     background-color: rgba(148, 79, 15, 0.5);
@@ -292,7 +295,7 @@ footer {
 
 #navigation-icons div {
     display: inline-block;
-    width: 18vw;
+    width: 25vw;
     font-size: 3vw;
 }
 
@@ -305,8 +308,9 @@ footer {
 }
 
 @media screen and (max-width:1024px) {
-    #navigation-icons div {
-        width: 20vw;
+
+    #navigation-icons {
+        font-size: 3vw;
     }
 }
 
