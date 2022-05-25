@@ -120,3 +120,6 @@ https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-col
 
 Custom styling for radio buttons:
 https://stackoverflow.com/questions/18377980/use-text-act-as-a-radio-button-make-string-into-a-radio-button
+
+Infinitely repeating CSS animation:
+https://stackoverflow.com/questions/13994825/css3-animation-repeat
