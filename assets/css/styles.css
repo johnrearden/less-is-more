@@ -402,8 +402,8 @@ h4 {
 form {
     color: silver;
     font-size: 1.2rem;
-    margin: 30px auto;
-    width: 80%;
+    margin: 10px auto;
+    width: 100%;
     text-align: left;
 }
 
@@ -417,8 +417,15 @@ form h3 {
     grid-template-rows: auto auto;
 }
 
+.fieldset-holder {
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+
 fieldset {
-    padding: 10px 10px 10px 50px;
     border-color: gray;
     line-height: 150%;
     border-radius: 10px;
@@ -445,38 +452,8 @@ textarea {
     margin-bottom: 7px;
 }
 
-.fieldset-holder {
-    padding: 10px;
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 10px;
-    margin: 20px 20px;
-    box-sizing: border-box;
-}
-
-#holder {
-    text-align: center;
-}
-
-#background-panel {
-    width: 50%;
-    padding: 10px;
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 10px;
-    margin: 20px auto;
-    box-sizing: border-box;
-}
-
-#personal-details {
-    margin: 0 auto;
-}
-
 #survey-request {
     font-size: 150%;
-}
-
-#survey-request a {
-    text-decoration: none;
-    color: inherit;
 }
 
 legend {
@@ -497,11 +474,10 @@ legend {
 
 input[type='submit'] {
     margin: 20px 0;
-    font-size: 2rem;
-    box-sizing: border-box;
+    font-size: 1.5rem;
     border-radius: 10px;
     padding: 2px 7px;
-    background-color: green;
+    background-color: silver;
     border: 1px solid #777777;
 }
 
