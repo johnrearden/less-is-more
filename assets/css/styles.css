@@ -58,11 +58,8 @@ li {
     position: absolute;
     left: 50px;
     top: 50px;
-}
-
-#user-question h1 {
+    font-size: 2vw;
     opacity: 0;
-    font-size: 4vw;
     animation-name: text-fade-in;
     animation-duration: 3s;
     animation-delay: 2s;
