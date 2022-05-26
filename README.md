@@ -45,8 +45,13 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 - ### Tips Panel
     - The tips panels consist of an image on a black rounded background, with text in silver (below on desktop, to the side on mobile). The salient feature of each image is in colour, while the background has been grayscaled to match the site theme.
+    - Each tip has a 'more' link with icon at the bottom, which links to an article on another site, opening in a new browser tab.
+
 <img src='assets/documentation_images/tips.png'
      alt='Picture of tips panel'>
+
+- ### Features left to implement
+    - A calculator which shows the cumulative effect (in percentage?) of applying each of the tips in each category.
 
 ---
 
@@ -91,14 +96,6 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
         - [mobile](https://share.balsamiq.com/c/4yaSMykZ7Wa8b1mikxWFKr.png)
     - Contact page
         - [desktop](https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png)
-
-# Features
-
-- Responsive (tested on all device screen sizes from 4k desktop monitors down to a smallest mobile size of 320px)
-
-- Navigation buttons at bottom of screen which pulse gently to indicate interactivity
-
-- User message fades in when homepage image becomes visible to initiate communication with the user.
 
 # Technologies Used
 
