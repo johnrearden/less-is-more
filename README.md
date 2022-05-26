@@ -17,7 +17,7 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 - ### Landing Page
     - The landing page is the content presented on first contact with the user. An overlay image of ripples on a pond dissolves to reveal coins, and the message 'Wish your bills were smaller?' appears at the same time. 
     - There is a text area that introduces the visitor to the topic of the site, and presents a call to action.
-    - The hero image evokes the experience of seeing coins through water in a fountain, as when wishes are made, which is echoed in the message displayed to the user.
+    - The hero image evokes the experience of seeing coins through water in a fountain, as when wishes are made, which is echoed in the main message displayed to the user.
 
 <img src='assets/documentation_images/landing_page.png'
      alt='Picture of site landing page'>
