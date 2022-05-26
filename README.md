@@ -2,9 +2,24 @@
 
 ### A website that helps visitors spend less in their home and on their car.
 
+The site is intended to provide the visitor with helpful advice on how to reduce their household and motoring expenses. There is a page each for tips on these two topics. The tips are presented both graphically and in text, and they link to further external content to enable the visitor to learn more.
+
+A contact page is included, which allow the visitor to sign up to a newsletter, rate the usefulness of the site, request further information and recommend further topics to be covered.
+
 [View the live project here](https://johnrearden.github.io/less-is-more/)
 
-<img src='assets/images/responsive-screenshots.png' alt='screenshots of project'>
+<img src='assets/documentation_images/responsive-screenshots.png' alt='screenshots of project'>
+
+---
+
+# Features
+
+### Landing Page
+<img src='/assets/documentation_images/landing_page.png'
+     alt='Picture of site landing page'>
+
+### Top Navigation Bar
+
 
 ---
 
@@ -24,11 +39,7 @@
         - As a Returning Visitor, I want to use the site content as
         a jumping-off point to further explore the issues raised.
         - As a Returning Visitor, I want to use social links to find a community of other people also interested in economising on their household and motoring expenses.
-
-    - #### Frequent User Goals
-
-        - As a Frequent User, I want to subscribe to a newsletter/email update service from the website to learn about more money-saving tips.
-
+        - As a Returning Visitor, I would like to be able to request further information on the topics, and recommend extra content for the site.
 
 - ### Design
 
