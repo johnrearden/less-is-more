@@ -146,3 +146,6 @@ https://stackoverflow.com/questions/13994825/css3-animation-repeat
 
 Adding un-ignorable whitespace to HTML elements:
 https://www.thoughtco.com/spaces-in-html-3466574
+
+Use of CSS clamp() to prevent text from expanding too much on large screen:
+https://youtu.be/VQraviuwbzU
