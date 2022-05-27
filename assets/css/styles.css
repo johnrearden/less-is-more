@@ -387,34 +387,20 @@ h4 {
 
 /* FORM STYLING */
 
-#feedback-form {
-    text-align: center;
-}
-
 form {
+    text-align: center;
     color: silver;
     font-size: 1.2rem;
-    margin: 10px auto;
-    width: 100%;
-    text-align: left;
-}
-
-form h3 {
-    color: rgb(158, 145, 73);
-}
-
-#grid-layout {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
 }
 
 .fieldset-holder {
+    width: 60vw;
     padding: 10px;
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 10px;
-    margin: 20px 20px;
+    margin: 20px auto;
     box-sizing: border-box;
+    text-align: center;
 }
 
 fieldset {
@@ -422,17 +408,24 @@ fieldset {
     line-height: 150%;
     border-radius: 10px;
     height: 100%;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+fieldset > * {
+    margin-left: 1vw;
+    margin-bottom: 0.5rem;
+}
+
+legend {
+    color: gray;
 }
 
 #personal-details label {
     display: inline-block;
-    text-align: right;
     min-width: 100px;
 }
 
-textarea {
-    text-align: left;
-}
 
 #personal-details input,
 #personal-details select,
@@ -440,16 +433,10 @@ textarea {
     background-color: #222233;
     color: silver;
     font-size: 1.1rem;
-    padding: 3px;
-    margin-bottom: 7px;
 }
 
-#survey-request {
-    font-size: 150%;
-}
-
-legend {
-    color: gray;
+textarea {
+    width: 90%;
 }
 
 .radiobutton-holder {
@@ -465,8 +452,7 @@ legend {
 }
 
 input[type='submit'] {
-    margin: 20px 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 2px 7px;
     background-color: silver;
@@ -515,73 +501,19 @@ input[type='radio'] {
     margin: 0;
 }
 
-.status-wrapper,
-.heating-wrapper,
-.travel-wrapper,
-.commute-wrapper,
-.spend-wrapper,
 .rating {
     display: inline-block;
 }
 
-.status-wrapper input:checked+label,
-.heating-wrapper input:checked+label,
-.travel-wrapper input:checked+label,
-.commute-wrapper input:checked+label,
-.spend-wrapper input:checked+label {
-    background-color: #2222cc;
-}
-
-@media screen and (max-width:1400px) {
-    form {
-        width: 90%;
-        font-size: 1.0rem;
-    }
-
-    fieldset {
-        padding: 10px 10px 10px 20px;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    #grid-layout {
-        grid-template-columns: auto;
-    }
-}
-
 @media screen and (max-width:768px) {
-    form {
-        width: 95%;
-        font-size: 0.8rem;
-    }
-
-    .radiobutton-label {
-        margin-right: 10px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    form {
-        width: 100%;
-        font-size: 0.8rem;
-        margin: 5px auto;
-    }
-
-    .radiobutton-label {
-        margin-right: 5px;
-    }
-
     .fieldset-holder {
-        margin: 5px 5px;
+        width: 90vw;
+        font-size: 0.8rem;
     }
 
-    #personal-details label {
-        display: block;
-        text-align: left;
-        min-width: 100px;
+    input[type='submit'] {
+        font-size: 1rem;
     }
-
-
 }
 
 /* CORPORATE CONTACT STYLING */
@@ -590,7 +522,6 @@ input[type='radio'] {
     width: 50vw;
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     margin: 10px auto;
     text-align: center;
