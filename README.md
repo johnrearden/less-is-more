@@ -139,7 +139,25 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 ## Manual Testing
 Feature | Expected | Action | Result
 --------|----------|--------|-------
-Home button | Returns user to homepage | Clicked Home on NavBar | Home page opened sucessfully |
+Site Icon | Returns user to homepage | Clicked Home on NavBar | Home page opened sucessfully |
+Household link | Opens household tips page | Clicked Household on NavBar | Household page opened
+Driving link | Opens driving tips page | Clicked Driving on NavBar | Driving page opened
+Contact link | Opens contact form | Clicked on Contact link | Contact Form opened
+Site icon hover effect | Icon brightens on hover | Hovered on icon | Icon became brighter
+Navbar link hover effects | Underline link on hover | Hovered on all links | Each underlined
+Floating Nav Household link | Opens household tips page | Clicked on icon | Household page opened
+Floating Nav Driving link | Opens driving tips page | Clicked on icon | Driving page opened
+More>> links on tips pages | Links to external content | Clicked on each of 8 links |External page opened for each in new tab.
+Name text field on form | Allows user to input name | Typed name | Name appeared correctly
+Email text field on form | Allows user to input email | Typed email | Email appeared correctly
+Name and email required | User should not be able to submit form without filling these fields | Attempted to submit empty fields in turn |Submit failed with request to user to fill the fields
+Email field requires valid email address| Prevents malformed email being submitted | Attempted to enter string without @ symbol | Submit failed with prompt to user for valid input
+Rating buttons | Rating buttons gain border when checked | Tried checking each of 5 buttons | Each button responds with a thick border
+Suggestion box | Allow user to input suggestion text | Typed text in box | Text appears successfully
+Submit Button | Submits form to server | Clicked on button | Form is sent to server successfully
+
+
+---
 
 ## Further Testing
 
