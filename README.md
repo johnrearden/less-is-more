@@ -8,7 +8,7 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 [View the live project here](https://johnrearden.github.io/less-is-more/)
 
-<img src='assets/documentation_images/responsive-screenshots.png' alt='screenshots of project'>
+![screenshots of project](assets/documentation_images/responsive-screenshots.png)
 
 ---
 
@@ -19,36 +19,31 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
     - There is a text area that introduces the visitor to the topic of the site, and presents a call to action.
     - The hero image evokes the experience of seeing coins through water in a fountain, as when wishes are made, which is echoed in the main message displayed to the user.
 
-<img src='assets/documentation_images/landing_page.png'
-     alt='Picture of site landing page'>
+![Picture of site landing page](assets/documentation_images/landing_page.png)
 
 - ### Top Navigation Bar
     - The top navigation bar has a site logo on the left (which also funcitons as a link back to the homepage throughout the site)
     - Links to the other pages are presented on the right in conventional format, as the visitors eye will habitually scan this header to find links to content on the site.
 
-<img src='assets/documentation_images/header.png'
-     alt='Picture of top navigation bar'>
+![Picture of top navigation bar](assets/documentation_images/header.png)
 
 - ### Floating Navigation Icons
     - A bar with navigation icons and a simple text legend is presented in the bottom half of the screen, above the footer, to provide another link to the tips if the visitors attention is focused on the hero image initially.
     - The icon background colour, which matches the coloured coins in the hero image, grows lighter on hovering to indicate an interactive element.
 
-<img src='assets/documentation_images/navigation_icon_bar.png'
-     alt='Picture of floating navigation bar'>
+![Picture of floating navigation bar](assets/documentation_images/navigation_icon_bar.png)
 
 - ### Footer
     - The footer consists of a simple thin bar with a copyright image on the left and social link icons spread across the rest of the line to the right. 
     - The footer is black in colour to match the header, which provides a symmetrical frame to the page.
 
-<img src='assets/documentation_images/footer.png'
-     alt='Picture of site footer'>
+![Picture of site footer](assets/documentation_images/footer.png)
 
 - ### Tips Panel
     - The tips panels consist of an image on a black rounded background, with text in silver (below on desktop, to the side on mobile). The salient feature of each image is in colour, while the background has been grayscaled to match the site theme.
     - Each tip has a 'more' link with icon at the bottom, which links to an article on another site, opening in a new browser tab.
 
-<img src='assets/documentation_images/tips.png'
-     alt='Picture of tips panel'>
+![Picture of tips panel](assets/documentation_images/tips.png)
 
 - ### Features left to implement
     - A calculator which shows the cumulative effect (in percentage?) of applying each of the tips in each category.
