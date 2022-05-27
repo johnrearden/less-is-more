@@ -105,6 +105,10 @@ header {
     content: url('/assets/images/site-icon-brighter.png')
 }
 
+#site-icon-link:hover {
+    border: none;
+}
+
 nav li {
     display: inline-block;
     font-size: 1.2rem;
