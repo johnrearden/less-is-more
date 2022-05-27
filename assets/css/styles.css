@@ -466,8 +466,8 @@ input[type='submit'] {
 
 .rating label {
     padding: 0 15px;
-    color: black;
     font-weight: bolder;
+    color: black;
 }
 
 .rating #red {
@@ -491,7 +491,8 @@ input[type='submit'] {
 }
 
 .rating input:checked + label {
-    border: 3px solid white;
+    border: 4px groove silver;
+    font-weight: bolder;
 }
 
 input[type='radio'] {
