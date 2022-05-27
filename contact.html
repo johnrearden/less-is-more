@@ -11,8 +11,7 @@
     <link href="assets/css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Less is More</title>
 </head>
 
@@ -24,79 +23,76 @@
             </a>
             <nav id="top-nav-bar">
                 <ul>
-                    <li><a href="household.html" target="">Household</a></li>
-                    <li><a href="driving.html" target="">Driving</a></li>
+                    <li><a href="household.html">Household</a></li>
+                    <li><a href="driving.html">Driving</a></li>
                     <li><a href="contact.html" class="active">Contact us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="feedback-form">
-        <form action="https://formdump.codeinstitute.net" method="POST">
-            <div class="fieldset-holder">
-                <fieldset id="personal-details">
-                    <legend>Personal Details</legend>
-                    <div>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </fieldset>
-            </div>
+    <form action="https://formdump.codeinstitute.net" method="POST">
+        <div class="fieldset-holder">
+            <fieldset id="personal-details">
+                <legend>Personal Details</legend>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+        </div>
 
-            <div class="fieldset-holder">
-                <fieldset>
-                    <legend>Feedback</legend>
-                    <p>
-                        How useful did you find our tips (1 - 5)?
-                    </p>
-                    <div class="radiobutton-holder">
-                        <div class="rating">
-                            <input type="radio" id="one" name="rating" value="one">
-                            <label for="one" id="red" class="radiobutton-label">1</label>
-                        </div>
-                        <div class="rating">
-                            <input type="radio" id="two" name="rating" value="two">
-                            <label for="two" id="orange" class="radiobutton-label">2</label>
-                        </div>
-                        <div class="rating">
-                            <input type="radio" id="three" name="rating" value="three" checked>
-                            <label for="three" id="yellow" class="radiobutton-label">3</label>
-                        </div>
-                        <div class="rating">
-                            <input type="radio" id="four" name="rating" value="four">
-                            <label for="four" id="darkgreen" class="radiobutton-label">4</label>
-                        </div>
-                        <div class="rating">
-                            <input type="radio" id="five" name="rating" value="five">
-                            <label for="five" id="lightgreen" class="radiobutton-label">5</label>
-                        </div>
+        <div class="fieldset-holder">
+            <fieldset>
+                <legend>Feedback</legend>
+                <p>
+                    How useful did you find our tips (1 - 5)?
+                </p>
+                <div class="radiobutton-holder">
+                    <div class="rating">
+                        <input type="radio" id="one" name="rating" value="one">
+                        <label for="one" id="red" class="radiobutton-label">1</label>
                     </div>
-                    <p>
-                        Any suggestions for new tips or categories?
-                    </p>
-                    <textarea rows="4" cols="30" id="suggestions" name="suggestions"></textarea>
-                </fieldset>
-            </div>
+                    <div class="rating">
+                        <input type="radio" id="two" name="rating" value="two">
+                        <label for="two" id="orange" class="radiobutton-label">2</label>
+                    </div>
+                    <div class="rating">
+                        <input type="radio" id="three" name="rating" value="three" checked>
+                        <label for="three" id="yellow" class="radiobutton-label">3</label>
+                    </div>
+                    <div class="rating">
+                        <input type="radio" id="four" name="rating" value="four">
+                        <label for="four" id="darkgreen" class="radiobutton-label">4</label>
+                    </div>
+                    <div class="rating">
+                        <input type="radio" id="five" name="rating" value="five">
+                        <label for="five" id="lightgreen" class="radiobutton-label">5</label>
+                    </div>
+                </div>
+                <p>
+                    Any suggestions for new tips or categories?
+                </p>
+                <textarea rows="4" cols="30" id="suggestions" name="suggestions"></textarea>
+            </fieldset>
+        </div>
 
-            <div class="fieldset-holder">
-                <fieldset>
-                    <legend>Submit</legend>
-                    <input type="submit">
-                    <p>
-                        Thanks for your feedback. We appreciate you taking the time!
-                        <br>
-                        <i class="fa-solid fa-hands-clapping"></i>
-                    </p>
-                </fieldset>
-            </div>
-        </form>
-
-    </section>
+        <div class="fieldset-holder">
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="submit">
+                <p>
+                    Thanks for your feedback. We appreciate you taking the time!
+                    <br>
+                    <i class="fa-solid fa-hands-clapping"></i>
+                </p>
+            </fieldset>
+        </div>
+    </form>
 
     <footer>
         <div id="copyright-message">

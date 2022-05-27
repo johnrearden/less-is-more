@@ -134,6 +134,12 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 ## Validator Testing
 
+- HTML Validation
+
+
+- CSS Validation
+![W3C CSS validated](http://jigsaw.w3.org/css-validator/images/vcss)
+
 ---
 
 ## Manual Testing
@@ -155,7 +161,7 @@ Email field requires valid email address| Prevents malformed email being submitt
 Rating buttons | Rating buttons gain border when checked | Tried checking each of 5 buttons | Each button responds with a thick border
 Suggestion box | Allow user to input suggestion text | Typed text in box | Text appears successfully
 Submit Button | Submits form to server | Clicked on button | Form is sent to server successfully
-
+Submit button hover effect | Highlights submit button when hovered over | Hovered on submit button | Submit button background color lightens
 
 ---
 
