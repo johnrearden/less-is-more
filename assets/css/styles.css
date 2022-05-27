@@ -59,12 +59,17 @@ li {
     text-align: center;
     left: 3vw;
     top: 3vw;
+    right: 35%;
     font-size: 2vw;
     opacity: 0;
     animation-name: text-fade-in;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+}
+
+#user-question p {
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width:768px) {
