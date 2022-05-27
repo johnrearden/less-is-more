@@ -135,9 +135,11 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 ## Validator Testing
 
 - HTML Validation
-
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
 
 - CSS Validation
+    - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    
 ![W3C CSS validated](http://jigsaw.w3.org/css-validator/images/vcss)
 
 ---
