@@ -171,13 +171,19 @@ Submit button hover effect | Highlights submit button when hovered over | Hovere
 
 As well as responsiveness testing using the device toolbar in Chrome Devtools, the website was viewed on the following hardware devices to comfirm full responsiveness.
 
+iPhone 12
+
+
 # Known Bugs
 
 There are no known bugs in the project.
 
 # Deployment
 
-still to do
+- The website is deployed on Github Pages. The deployment procedure is as follows :
+    - In the Github repository, navigate to the Settings tag.
+    - From the source section drop-down menu, select the Master branch.
+    - The page should be refreshed with a message to indicate successful deployment.
 
 # Credits
 ## Images:
@@ -224,6 +230,9 @@ https://youtu.be/VQraviuwbzU
 
 Request fullscreen on Safari browser on iPhone.
 https://alvinalexander.com/iphone/iphone-html-apps-full-screen-safari-url-bars-remove/
+
+Extensive use made of the Code Institute README template.
+https://github.com/Code-Institute-Solutions/readme-template
 
 
 ---
