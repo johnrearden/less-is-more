@@ -169,11 +169,11 @@ Submit button hover effect | Highlights submit button when hovered over | Hovere
 
 ## Further Testing
 
-still to do
+As well as responsiveness testing using the device toolbar in Chrome Devtools, the website was viewed on the following hardware devices to comfirm full responsiveness.
 
 # Known Bugs
 
-still to do
+There are no known bugs in the project.
 
 # Deployment
 
