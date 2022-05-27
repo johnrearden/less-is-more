@@ -46,7 +46,7 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 ![Picture of tips panel](assets/documentation_images/tips.png)
 
 - ### Features left to implement
-    - A calculator which shows the cumulative effect (in percentage?) of applying each of the tips in each category.
+    - A calculator which shows the cumulative effect (in percentage terms perhaps?) of applying each of the tips in each category.
 
 ---
 
@@ -119,6 +119,22 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 # Testing
 
 ## Testing User Stories from UX section
+- #### First Time Visitor Goals
+    - The purpose of the site is immediately apparent from the User Question text presented on page load, which is reinforced by the image of coins under water. 
+    - There are two parallel paths through the main content of the site. At the top there is a conventional navbar with links to each page in the site, and a site icon which doubles as a link back to the homepage. More prominently, low in the page, just above the footer, there is a floating navigation bar with an icon for each of the 2 tips pages, which is particularly appropriate for use on a mobile device.
+    - The image reveal and text fade-in attract and hold the attention of the visitor, allowing them to experience the page as an event as well as a static source of information.
+
+- #### Returning Visitor Goals
+
+    - Each tip has a link to an external site giving more information on the subject on the web.
+    - There are social link icons on the footer to enable quick access to the most common social media sites.
+    - There is a contact form linked in the top navigation bar, which allows the visitor to request further or more specific information on the topics covered in the tip-panels.
+
+---
+
+## Validator Testing
+
+---
 
 ## Manual Testing
 Feature | Expected | Action | Result
