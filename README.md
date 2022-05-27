@@ -179,3 +179,11 @@ https://www.thoughtco.com/spaces-in-html-3466574
 
 Use of CSS clamp() to prevent text from expanding too much on large screen:
 https://youtu.be/VQraviuwbzU
+
+
+---
+
+## Acknowledgements
+- I would like to thank my tutor, Okwudiri Okoro, for his valuable assistance during the course of this project. As well as much useful technical information, he kept me focused on the bigger picture of what the purpose of the site should be, and how vital it was that the user experience be central.
+
+- I would also like to thank our course facilitator, Kenan Wright, for his help during the weekly stand-up meetings. In particular, his advice about refactoring the CSS in the project to pull more general element styling up to the top of the file to remove code repitition was very helpful.
