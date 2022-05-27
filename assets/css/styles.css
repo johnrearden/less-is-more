@@ -226,7 +226,7 @@ footer {
 
 #navigation-section {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 80px;
     text-align: center;
     color: black;
@@ -267,6 +267,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .tip-panel {
@@ -400,6 +401,7 @@ form {
     text-align: center;
     color: silver;
     font-size: 1.2rem;
+    margin-bottom: 60px;
 }
 
 .fieldset-holder {
