@@ -164,6 +164,10 @@ footer {
     margin-right: 12vw;
 }
 
+#social-links a:hover {
+    border: none;
+}
+
 @media screen and (max-width:600px) {
     #copyright-message {
         font-size: 0.8rem;
