@@ -222,6 +222,9 @@ https://www.thoughtco.com/spaces-in-html-3466574
 Use of CSS clamp() to prevent text from expanding too much on large screen:
 https://youtu.be/VQraviuwbzU
 
+Request fullscreen on Safari browser on iPhone.
+https://alvinalexander.com/iphone/iphone-html-apps-full-screen-safari-url-bars-remove/
+
 
 ---
 
