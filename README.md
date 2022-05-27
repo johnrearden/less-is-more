@@ -172,7 +172,11 @@ Submit button hover effect | Highlights submit button when hovered over | Hovere
 As well as responsiveness testing using the device toolbar in Chrome Devtools, the website was viewed on the following hardware devices to comfirm full responsiveness.
 
 iPhone 12
+Samsung S8
 
+Desktop with following monitor sizes:
+1920 x 1080
+1366 x 768
 
 # Known Bugs
 
