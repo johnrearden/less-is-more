@@ -140,11 +140,16 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 - CSS Validation
     - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
     
-![W3C CSS validated](http://jigsaw.w3.org/css-validator/images/vcss)
+- Lighthouse report
+    - homepage
 
-- Lighthouse report (for homepage)
+    ![Scores :](assets/documentation_images/lighthouse_homepage.png)
+    - driving.html
 
-![Scores :](assets/documentation_images/lighthouse_scores.png)
+    ![Scores :](assets/documentation_images/lighthouse_driving_page.png)
+    - contact.html
+
+    ![Scores :](assets/documentation_images/lighthouse_contact_page.png)
 ---
 
 ## Manual Testing
