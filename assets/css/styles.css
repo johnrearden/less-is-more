@@ -287,10 +287,10 @@ footer {
     border-radius: 10px;
     font-size: 1.0rem;
     overflow: auto;
+    position: relative;
 }
 
-.tip-panel h1,
-h4 {
+.tip-panel h1 {
     text-align: center;
 }
 
@@ -311,13 +311,20 @@ h4 {
 }
 
 .tip-panel p {
-    padding: 10px 10px;
+    padding: 5px 10px;
+}
+
+.tip-comment {
+    text-align: center;
+    font-weight: bolder;
 }
 
 .link-to-more {
+    position: absolute;
     width: 90%;
     text-align: right;
-    
+    bottom: 10px;
+    right: 10px;
 }
 
 .link-to-more a {

@@ -142,6 +142,9 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
     
 ![W3C CSS validated](http://jigsaw.w3.org/css-validator/images/vcss)
 
+- Lighthouse report (for homepage)
+
+![Scores :](assets/documentation_images/lighthouse_scores.png)
 ---
 
 ## Manual Testing
