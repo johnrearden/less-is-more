@@ -186,6 +186,10 @@ Desktop with following monitor sizes:
 1920 x 1080
 1366 x 768
 
+### Comments on device testing:
+On mobile devices, the viewport height often includes the url bar, so it is important not to assume that the webpage will be allowed to fill the entire viewport. 
+
+
 # Known Bugs
 
 There are no known bugs in the project.
