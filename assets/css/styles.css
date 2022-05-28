@@ -6,7 +6,6 @@
 
 body {
     width: 100%;
-    /* height: 100vh; */
     background-image: url('../images/coins.png');
     background-size: cover;
     background-position: center center;
@@ -615,7 +614,6 @@ input[type='radio'] {
 
     .consultation-panel {
         width: 100%;
-        /* flex: 1; */
         box-sizing: border-box;
         margin: 10px 0;
     }
