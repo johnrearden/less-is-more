@@ -250,6 +250,9 @@ https://alvinalexander.com/iphone/iphone-html-apps-full-screen-safari-url-bars-r
 Extensive use made of the Code Institute README template.
 https://github.com/Code-Institute-Solutions/readme-template
 
+Extensive use made of Mozilla Developer Network (MDN) documentation on CSS and HTML specifically
+https://developer.mozilla.org/en-US/
+
 
 ---
 
