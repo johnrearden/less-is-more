@@ -1,3 +1,5 @@
+/* SITE-WIDE GENERAL STYLE RULES */
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +34,8 @@ li {
     list-style-type: none;
 }
 
-/* IMAGE BLENDING AND USER QUESTION */
+
+/* MAIN OVERLAY IMAGE AND USER QUESTION */
 
 #blended-image {
     position: relative;
@@ -83,8 +86,8 @@ li {
     #user-question h1 {
         font-size: 6vw;
     }
-    
 }
+
 
 /* HEADER STYLING - common to all pages */
 header {
@@ -138,6 +141,7 @@ nav li {
     }
 }
 
+
 /* FOOTER STYLING - Common to all pages */
 
 footer {
@@ -186,6 +190,7 @@ footer {
     }
 }
 
+
 /* SITE RATIONALE */
 #site-rationale {
     position: absolute;
@@ -226,6 +231,7 @@ footer {
     }
 }
 
+
 /* NAVIGATION ICONS */
 
 #navigation-section {
@@ -261,7 +267,8 @@ footer {
     background-color: rgb(255, 160, 30, 0.5);
 }
 
-/* Driving.html and household.html*/
+
+/* STYLE RULES COMMON TO driving.html and household.html*/
 
 #container {
     width: 100%;
@@ -406,6 +413,7 @@ footer {
     }
 }
 
+
 /* FORM STYLING */
 
 form {
@@ -540,105 +548,5 @@ input[type='radio'] {
 
     input[type='submit'] {
         font-size: 1rem;
-    }
-}
-
-/* CORPORATE CONTACT STYLING */
-
-#row {
-    width: 50vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px auto;
-    text-align: center;
-}
-
-.consultation-panel {
-    width: 20%;
-    flex: 1;
-    padding: 10px;
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 10px;
-    margin: 10px 10px;
-    box-sizing: border-box;
-}
-
-.consultation-panel h2 {
-    color: white;
-}
-
-.consultation-panel img {
-    width: 90%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.consultation-panel p {
-    width: 90%;
-    text-align: left;
-    margin: 0 auto;
-    padding: 0 5px;
-}
-
-#corporate-contact-form .fieldset-holder {
-    width: 50vw;
-    margin: 0 auto;
-}
-
-#company-contact-info label {
-    display: inline-block;
-    text-align: right;
-    min-width: 100px;
-}
-
-@media screen and (max-width:1024px) {
-    #row {
-        width: 70vw;
-    }
-
-}
-
-@media screen and (max-width:768px) {
-    #row {
-        width: 90vw;
-    }
-
-}
-
-@media screen and (max-width:600px) {
-    #row {
-        width: 80vw;
-        flex-direction: column;
-    }
-
-    .consultation-panel {
-        width: 100%;
-        box-sizing: border-box;
-        margin: 10px 0;
-    }
-
-    #corporate-contact-form .fieldset-holder {
-        width: 95vw;
-        margin: 0 auto;
-    }
-
-}
-
-@keyframes ripples-fade-out {
-    from {
-        opacity: 1.0;
-    }
-    to {
-        opacity: 0.5;
-    }
-}
-
-@keyframes text-fade-in {
-    from {
-        opacity: 0.0;
-    }
-    to {
-        opacity: 1.0;
     }
 }
