@@ -110,7 +110,7 @@ header {
 }
 
 #title-and-logo img:hover {
-    content: url('../images/site-icon-brighter.png')
+    content: url('../images/site_icon_brighter.png')
 }
 
 #site-icon-link:hover {
