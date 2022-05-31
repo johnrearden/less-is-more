@@ -65,6 +65,9 @@ li {
     right: 35%;
     font-size: 2vw;
     opacity: 0;
+    background-image: radial-gradient(rgb(108, 108, 108, 0.8),  
+                                      /* rgb(108, 108, 108, 0.2),                 */
+                                      rgb(108, 108, 108, 0.01));
     animation-name: text-fade-in;
     animation-duration: 3s;
     animation-delay: 1s;
