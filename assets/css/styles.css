@@ -89,6 +89,10 @@ li {
     #user-question h1 {
         font-size: 6vw;
     }
+
+    #user-question p {
+        font-size: 1rem;
+    }
 }
 
 
