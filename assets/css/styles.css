@@ -209,19 +209,22 @@ footer {
     width: 30vw;
     text-align: center;
     right: 0;
-    line-height: 140%;
+    line-height: 150%;
+    
 }
 
 #user-welcome {
     background-color: rgb(100, 0, 0, 0.7);
+    padding: 15px;
 }
 
-.user-message {
+/* .user-message {
     padding: 10px 10px;
     margin: 0 auto;
-}
+} */
 
 .user-message h2{
+    font-weight: bolder;    
     margin-bottom: 10px;
 }
 
