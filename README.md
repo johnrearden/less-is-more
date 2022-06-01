@@ -45,6 +45,11 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 ![Picture of tips panel](assets/documentation_images/tips.png)
 
+- ### Contact Form
+    - A simple contact form with inputs for name and email, and a textarea to enable the visitor to input any suggestions they may have.
+
+![Picture of contact form](assets/documentation_images/form.png) 
+
 - ### Features left to implement
     - A calculator which shows the cumulative effect (in percentage terms perhaps?) of applying each of the tips in each category.
 

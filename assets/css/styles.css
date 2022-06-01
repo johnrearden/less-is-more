@@ -526,10 +526,10 @@ input[type='submit']:hover {
         font-size: 0.8rem;
     }
 
-    input,
+    .personal-details input,
     textarea,
     input[type='submit'] {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
