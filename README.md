@@ -252,6 +252,12 @@ Ripples      : Johannes Plenio (sourced from www.pexels.com)
 Aligning labels and text input fields vertically : 
 https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
 
+CSS flexbox layout:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+CSS radial-gradients:
+https://developer.mozilla.org/en-US/docs/web/css/gradient/radial-gradient
+
 CSS grid layout:
 https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-template-columns
 
