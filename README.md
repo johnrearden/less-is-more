@@ -202,19 +202,19 @@ There are no known bugs in the project.
 
 ### GitHub Pages
 The website is deployed on Github Pages. The deployment procedure is as follows :
-- Navigate to the Github repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+- Navigate to the Github repository [www.github.com/johnrearden/less-is-more](https://www.github.com/johnrearden/less-is-more)
 - In the Github repository, navigate to the Settings tag.
 - From the source section drop-down menu, select the Master branch.
 - The page should be refreshed with a message to indicate successful deployment.
 
 ### Forking the Github Repository
-By forking the GitHub Repository we make a copy of the original repository to view and/or make changes without affecting the original repository by using the following steps:
-- Log in to GitHub and locate the repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+You can make a copy of the original repository to view and/or make changes without affecting the original repository by using the following steps:
+- Log in to GitHub and locate the repository [www.github.com/johnrearden/less-is-more](https://www.github.com/johnrearden/less-is-more)
 - At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 - You should now have a copy of the original repository in your GitHub account
 
 ### Making a Local Clone
-- Log in to Github and locate the repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+- Log in to Github and locate the repository [www.github.com/johnrearden/less-is-more](https://www.github.com/johnrearden/less-is-more)
 - Under the repository name, click "Clone or download".
 - To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 - Open Git Bash
