@@ -488,11 +488,12 @@ textarea {
 
 .personal-details input,
 textarea {
-    background-color: rgba(148, 79, 15, 0.2);
+    background-color: rgba(65, 34, 6, 0.5);
     font-size: 1.3rem;
     padding: 5px;
     margin: 5px 0;
     color: white;
+    border-radius: 5px;
 }
 
 #suggestions {
