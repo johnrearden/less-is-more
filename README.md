@@ -173,7 +173,6 @@ Name text field on form | Allows user to input name | Typed name | Name appeared
 Email text field on form | Allows user to input email | Typed email | Email appeared correctly
 Name and email required | User should not be able to submit form without filling these fields | Attempted to submit empty fields in turn |Submit failed with request to user to fill the fields
 Email field requires valid email address| Prevents malformed email being submitted | Attempted to enter string without @ symbol | Submit failed with prompt to user for valid input
-Rating buttons | Rating buttons gain border when checked | Tried checking each of 5 buttons | Each button responds with a thick border
 Suggestion box | Allow user to input suggestion text | Typed text in box | Text appears successfully
 Submit Button | Submits form to server | Clicked on button | Form is sent to server successfully
 Submit button hover effect | Highlights submit button when hovered over | Hovered on submit button | Submit button background color lightens
