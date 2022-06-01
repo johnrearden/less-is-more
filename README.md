@@ -8,7 +8,7 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 [View the live project here](https://johnrearden.github.io/less-is-more/)
 
-![screenshots of project](assets/documentation_images/responsive-screenshots.png)
+![screenshots of project](assets/documentation_images/responsive_screenshots.png)
 
 ---
 
