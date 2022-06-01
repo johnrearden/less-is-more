@@ -15,7 +15,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: silver;
     background-color: black;
-} 
+}
 
 .no-text-background {
     background-image: url('../images/ripples.png');
@@ -26,7 +26,8 @@ a {
     color: inherit;
 }
 
-a:hover, .active {
+a:hover,
+.active {
     border-bottom: 1px solid silver;
 }
 
@@ -65,9 +66,9 @@ li {
     right: 35%;
     font-size: 2vw;
     opacity: 0;
-    background-image: radial-gradient(rgb(108, 108, 108, 0.8),  
-                                      /* rgb(108, 108, 108, 0.2),                 */
-                                      rgb(108, 108, 108, 0.01));
+    background-image: radial-gradient(rgb(108, 108, 108, 0.8),
+            /* rgb(108, 108, 108, 0.2),                 */
+            rgb(108, 108, 108, 0.01));
     animation-name: text-fade-in;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -210,7 +211,7 @@ footer {
     text-align: center;
     right: 0;
     line-height: 150%;
-    
+
 }
 
 #user-welcome {
@@ -223,8 +224,8 @@ footer {
     margin: 0 auto;
 } */
 
-.user-message h2{
-    font-weight: bolder;    
+.user-message h2 {
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 
@@ -263,7 +264,7 @@ footer {
     padding: 10px 0;
     display: inline-block;
     font-size: clamp(1rem, 3vw, 3rem);
-    background-color:silver;
+    background-color: silver;
     border-radius: 10px;
     border: 1px solid #444444;
 }
@@ -353,7 +354,7 @@ footer {
 .link-to-more a {
     text-decoration: none;
     color: inherit;
-    
+
     padding: 3px;
 }
 
@@ -367,7 +368,7 @@ footer {
     body {
         height: 100%;
     }
-    
+
     #container {
         flex-direction: column;
         align-items: center;
@@ -419,7 +420,7 @@ footer {
         min-width: 40%;
     }
 
-    
+
 }
 
 @media screen and (max-width: 480px) {
@@ -434,20 +435,20 @@ footer {
 /* FORM STYLING */
 
 form {
-    text-align: center;
+    /* text-align: center; */
     color: silver;
-    font-size: 1.2rem;
-    margin-bottom: 60px;
+    font-size: 1.3rem;
+    margin: 20px auto 80px auto;
+    width: fit-content;
+    text-align: center;
 }
 
 .fieldset-holder {
-    width: 60vw;
-    padding: 10px;
-    background-color: rgb(0, 0, 0, 0.7);
+    padding: 5px 15px 15px 15px;
+    background-image: radial-gradient(#00000022, #00000077);
     border-radius: 10px;
     margin: 20px auto;
     box-sizing: border-box;
-    text-align: center;
 }
 
 fieldset {
@@ -459,43 +460,46 @@ fieldset {
     text-align: left;
 }
 
-fieldset > * {
+fieldset>* {
     margin-left: 1vw;
     margin-bottom: 0.5rem;
 }
 
 legend {
-    color: gray;
-}
-
-#personal-details label {
-    display: inline-block;
-    min-width: 100px;
-}
-
-
-#personal-details input,
-#personal-details select,
-textarea {
-    background-color: #222233;
     color: silver;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+}
+
+.personal-details {
+    width: 100%;
+}
+
+.personal-details label {
+    width: 15%;
+    display: inline-block;
+}
+
+.personal-details input {
+    max-width: 80%;
 }
 
 textarea {
-    width: 90%;
+    max-width: 90%;
 }
 
-.radiobutton-holder {
-    margin-top: 5px;
+input,
+textarea {
+    background-color: #00000055;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
 }
-.radiobutton-label {
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 2px 7px;
-    background-color: #444444;
-    border: 1px solid #777777;
-    user-select: none;
+
+#suggestions {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
 }
 
 input[type='submit'] {
@@ -515,54 +519,14 @@ input[type='submit']:hover {
     font-size: 200%;
 }
 
-.rating label {
-    padding: 0 15px;
-    font-weight: bolder;
-    color: black;
-}
-
-.rating #red {
-    background-color: red;
-}
-
-.rating #orange {
-    background-color: orange;
-}
-
-.rating #yellow {
-    background-color: yellow;
-}
-
-.rating #darkgreen {
-    background-color: darkgreen;
-}
-
-.rating #lightgreen {
-    background-color: lightgreen;
-}
-
-.rating input:checked + label {
-    border: 4px groove silver;
-    font-weight: bolder;
-}
-
-input[type='radio'] {
-    visibility: hidden;
-    width: 0;
-    padding: 0;
-    margin: 0;
-}
-
-.rating {
-    display: inline-block;
-}
-
 @media screen and (max-width:768px) {
     .fieldset-holder {
-        width: 90vw;
+        width: 95vw;
         font-size: 0.8rem;
     }
 
+    input,
+    textarea,
     input[type='submit'] {
         font-size: 1rem;
     }
@@ -572,6 +536,7 @@ input[type='radio'] {
     from {
         opacity: 1.0;
     }
+
     to {
         opacity: 0.4;
     }
@@ -581,6 +546,7 @@ input[type='radio'] {
     from {
         opacity: 0.0;
     }
+
     to {
         opacity: 1.0;
     }
