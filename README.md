@@ -200,11 +200,30 @@ There are no known bugs in the project.
 
 # Deployment
 
-- The website is deployed on Github Pages. The deployment procedure is as follows :
-    - In the Github repository, navigate to the Settings tag.
-    - From the source section drop-down menu, select the Master branch.
-    - The page should be refreshed with a message to indicate successful deployment.
+### GitHub Pages
+The website is deployed on Github Pages. The deployment procedure is as follows :
+- Navigate to the Github repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+- In the Github repository, navigate to the Settings tag.
+- From the source section drop-down menu, select the Master branch.
+- The page should be refreshed with a message to indicate successful deployment.
 
+### Forking the Github Repository
+By forking the GitHub Repository we make a copy of the original repository to view and/or make changes without affecting the original repository by using the following steps:
+- Log in to GitHub and locate the repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+- At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
+- You should now have a copy of the original repository in your GitHub account
+
+### Making a Local Clone
+- Log in to Github and locate the repository [www.github.com/johnrearden/less-is-more/](www.github.com/johnrearden/less-is-more)
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type `git clone`, and then paste the URL you copied in Step 3.
+
+    `$ git clone https://github.com/johnrearden/less-is-more`
+
+- Press Enter. Your clone will be created.
 # Credits
 ## Images:
 Fast red car : Pixabay (sourced from www.pexels.com)
