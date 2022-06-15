@@ -89,13 +89,14 @@ A contact page is included, which allow the visitor to sign up to a newsletter, 
 
 - ### Wireframes
     - Homepage 
-        - [desktop](https://share.balsamiq.com/c/u49Yj3JpZQCiJefFBKy9XY.png)
-        - [mobile](https://share.balsamiq.com/c/wT29ut8XS929gETQtMB49G.png)
+        - ![desktop version of homepage](assets/documentation_images/balsamiq_wireframes/homepage_desktop.png)
+        
+        - ![mobile](assets/documentation_images/balsamiq_wireframes/homepage_mobile.png)
     - Tips pages
-        - [desktop](https://share.balsamiq.com/c/wzj7f2LUg6otfBtZPbfctZ.png)
-        - [mobile](https://share.balsamiq.com/c/4yaSMykZ7Wa8b1mikxWFKr.png)
+        - ![desktop version of tips pages](assets/documentation_images/balsamiq_wireframes/tips_desktop.png)
+        - ![mobile version of tips pages](assets/documentation_images/balsamiq_wireframes/tips_mobile.png)
     - Contact page
-        - [desktop](https://share.balsamiq.com/c/hYhSvWi5L9JKzkoPxBgmYc.png)
+        - ![desktop version of form page](assets/documentation_images/balsamiq_wireframes/form.png)
 
 # Technologies Used
 
